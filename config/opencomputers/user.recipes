@@ -1,0 +1,2 @@
+include file("gregtech.recipes")
+include file("custom.recipes")

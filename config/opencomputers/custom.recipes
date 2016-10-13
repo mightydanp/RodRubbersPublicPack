@@ -1,0 +1,47 @@
+# Note that there is support for a number of GregTech machines, by using the
+# appropriate `type` specifier. Available types are:
+# - gt_alloySmelter : Alloy Smelter Recipe
+# - gt_assembler    : Circuit Assembler Machine
+# - gt_bender       : Plate Bending Machine Recipe
+# - gt_canner       : Canning Machine Recipe
+# - gt_chemical     : Chemical Recipe
+# - gt_cnc          : CNC-Machine Recipe
+# - gt_cutter       : Cutter Recipe
+# - gt_fluidCanner  : Fluid Canner Recipe
+# - gt_formingPress : Forming Press Recipe
+# - gt_lathe        : Lathe Machine Recipe
+# - gt_laserEngraver: Laser Engraver Recipe
+# - gt_wiremill     : Wiremill Recipe
+#
+# For these types, there a few more options for inputs and outputs. A full
+# recipe using all these options would look like this:
+# name {
+#   type: gt_???
+#   input: ["primaryInput", "possiblyOptionalSecondaryInput"]
+#   count: [1, 2] # would mean 1 of primary, 2 of secondary
+#   output: 2 # size of primary output stack
+#   eu: EU consumed for the operation
+#   time: time it takes to complete the operation, in ticks.
+#   # The following are usually optional.
+#   secondaryOutput: ["secondaryOutput1", "secondaryOutput2"] # Max number depends on machine.
+#   secondaryOutputCount: [2, 2] # Like `count` to `input`.
+#   inputFluid: {name="water", amount="500"}
+#   outputFluid: {name="lava"} # defaults to amount = 1000
+# }
+
+acid {
+  type: shapeless
+  input: [bucketWater, sugar, slimeball, fermentedSpiderEye, bone]
+}
+
+screen1 {
+  input: [[plateAluminium, plateAluminium, craftingToolWrench]
+          [redstone, "oc:materialTransistor", paneGlass]
+          [plateAluminium, plateAluminium, craftingToolScrewdriver]]
+}
+
+wlanCard {
+  input: [[screwTitanium , "oc:circuitChip3" , screwTitanium]
+          [materialEnderPearl, "oc:lanCard", materialEnderPearl]
+          [screwTitanium , craftingToolScrewdriver, screwTitanium]]
+}

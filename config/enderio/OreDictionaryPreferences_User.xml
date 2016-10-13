@@ -1,0 +1,54 @@
+<!--
+Entries in this file take precedence over the values in the core file
+ -->
+<OreDictionaryPreferences>
+  <!-- Ingots -->
+  <preference oreDictionary="ingotCopper" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11035" />
+  </preference>
+  
+  <preference oreDictionary="ingotTin" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11057" />
+  </preference>
+  
+  <preference oreDictionary="ingotSilver" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11054" />
+  </preference>
+  
+  <preference oreDictionary="ingotLead" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11089" />
+  </preference>
+  
+  <preference oreDictionary="ingotBronze" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11300" />
+  </preference>
+  
+  <preference oreDictionary="ingotAluminum" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11019" />
+  </preference>
+  
+  <preference oreDictionary="sand" >
+    <itemStack modID="minecraft" itemName="sand" itemMeta="0" />
+  </preference>
+  
+  <preference oreDictionary="gravel" >
+    <itemStack modID="minecraft" itemName="gravel" itemMeta="0" />
+  </preference>
+  
+  <preference oreDictionary="itemSilicon" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2020" />
+  </preference>
+  
+  <preference oreDictionary="ingotRedstoneAlloy" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11308" />
+  </preference>
+  
+  <preference oreDictionary="blockRedstoneAlloy" >
+    <itemStack modID="gregtech" itemName="gt.blockmetal6" itemMeta="1" />
+  </preference>
+  
+  <preference oreDictionary="ingotCobalt" >
+    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11033" />
+  </preference>
+  
+</OreDictionaryPreferences>

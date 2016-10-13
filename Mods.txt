@@ -1,0 +1,95 @@
+Applied Energistics          - https://minecraft.curseforge.com/projects/applied-energistics-2
+Applied Energistics  Stuff   - https://minecraft.curseforge.com/projects/ae2-stuff
+AnimationAPI                 - https://mods.curse.com/mc-mods/minecraft/animationapi
+AppleCore                    - https://minecraft.curseforge.com/projects/applecore
+AquaTweaks                   - https://minecraft.curseforge.com/projects/aquatweaks
+Baubles                      - https://mods.curse.com/mc-mods/minecraft/227083-baubles
+BdLib                        - https://minecraft.curseforge.com/projects/bdlib
+BetterBeginnings             - https://minecraft.curseforge.com/projects/betterbeginnings-mod
+Better Foliage               - https://mods.curse.com/mc-mods/minecraft/228529-better-foliage
+BetterFps                    - https://minecraft.curseforge.com/projects/betterfps
+Better Rain                  - http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2134067-better-rain-v0-15-bug-fixes
+Better Storage               - https://mods.curse.com/mc-mods/minecraft/232919-better-storage
+BiblioCraft                  - https://minecraft.curseforge.com/projects/bibliocraft
+BiblioCraft: BiblioWoods     - https://minecraft.curseforge.com/members/Nuchaz/projects
+Big Reactors                 - https://minecraft.curseforge.com/projects/big-reactors
+Botania                      - https://minecraft.curseforge.com/projects/botania
+Chisel                       - https://minecraft.curseforge.com/projects/chisel
+CodeChickenCore              - https://mods.curse.com/mc-mods/minecraft/222213-codechickencore
+CoFHCore                     - https://mods.curse.com/mc-mods/Minecraft/cofhcore
+Compacter                    - https://minecraft.curseforge.com/projects/compacter
+CompactWaterTurbines         - https://mods.curse.com/mc-mods/minecraft/231829-compactwaterturbines
+EnderCore                    - https://minecraft.curseforge.com/projects/endercore
+Ender IO                     - https://minecraft.curseforge.com/projects/ender-io
+Ender IO Addons              - https://minecraft.curseforge.com/projects/ender-io-addons
+Ender Zoo                    - https://minecraft.curseforge.com/projects/ender-zoo
+ExtraCells2                  - https://mods.curse.com/mc-mods/minecraft/229218-extracells2
+ExtraTiC                     - https://mods.curse.com/mc-mods/minecraft/extratic
+Extra Utilities              - https://mods.curse.com/mc-mods/minecraft/225561-extra-utilities#t1:other-downloads
+FastCraft                    - https://minecraft.curseforge.com/projects/fastcraft
+FlatSigns                    - https://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/
+Forestry                     - https://mods.curse.com/mc-mods/minecraft/forestry
+Galacticraft                 - https://micdoodle8.com/mods/galacticraft/downloads
+GalacticGreg                 - forum.industrial-craft.net/index.php?page=Thread&threadID=11039
+Gendustry                    - https://minecraft.curseforge.com/projects/gendustry
+Gravitation Suite            - forum.industrial-craft.net/index.php?page=Thread&threadID=6915
+GregTech                     - forum.industrial-craft.net/index.php?page=Thread&threadID=11488
+GregTech++                   - https://github.com/draknyte1/GTplusplus/wiki/Downloads!#click-here-to-download
+GtTweaker                    - forum.industrial-craft.net/index.php?page=Thread&threadID=11353
+Hardcore Darkness            - https://minecraft.curseforge.com/projects/hardcore-darkness
+hardcore ender expansion     - https://minecraft.curseforge.com/projects/hardcore-ender-expansion
+Hunger Overhaul              - https://minecraft.curseforge.com/projects/hunger-overhaul
+Iguanas Tweaks               - https://mods.curse.com/mc-mods/minecraft/223248-iguanas-tinker-tweaks
+industrialcraft              - 
+IC2NuclearControl            - forum.industrial-craft.net/index.php?page=Thread&threadID=10649
+InfiniteInvo                 - https://mods.curse.com/mc-mods/minecraft/230889-infiniteinvo
+Inventory Tweaks             - https://minecraft.curseforge.com/projects/tweaked-inventory-tweaks
+IronChest                    -
+Login Shield                 - https://minecraft.curseforge.com/projects/login-shield
+Magic Bees                   - https://minecraft.curseforge.com/projects/magic-bees
+MalisisCore                  - https://minecraft.curseforge.com/projects/malisiscore
+Malisis' Doors               - https://mods.curse.com/mc-mods/minecraft/223891-malisisdoors
+Mantle                       - https://mods.curse.com/mc-mods/minecraft/mantle
+Mariculture                  - https://minecraft.curseforge.com/projects/mariculture
+Micdoodle Core               - https://micdoodle8.com/mods/galacticraft/downloads
+MineTweaker                  - https://minecraft.curseforge.com/projects/minetweaker3
+MobiusCore                   - https://minecraft.curseforge.com/projects/mobiuscore
+Mo' Creatures                - https://minecraft.curseforge.com/projects/mo-creatures
+ModTweaker                   - https://minecraft.curseforge.com/projects/modtweaker
+Modular Powersuits           - machinemuse.net/download.php
+MrCrayfish's Furniture Mod   - https://mrcrayfish.com/mods?id=cfm
+Natura                       - https://minecraft.curseforge.com/projects/natura
+NEI Addons                   - https://minecraft.curseforge.com/projects/nei-addons
+NEI Integration              - https://minecraft.curseforge.com/projects/nei-integration
+NotEnoughItems               - https://mods.curse.com/mc-mods/minecraft/222211-notenoughitems
+MicroBlocks                  - 
+Numina                       - machinemuse.net/download.php
+ObsidiPlates                 - https://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/
+OpenBlocks                   - https://mods.curse.com/mc-mods/minecraft/228816-openblocks
+OpenEye                      - https://mods.curse.com/mc-mods/minecraft/251457-openeye
+OpenModsLib                  - https://mods.curse.com/mc-mods/minecraft/228815-openmodslib
+OpenComputers                - https://mods.curse.com/mc-mods/minecraft/223008-opencomputers
+Opis                         - https://minecraft.curseforge.com/projects/opis
+Optifine                     - optifine.net/downloads
+Pressure Pipes               - https://minecraft.curseforge.com/projects/pressure-pipes
+Railcraft                    - http://www.railcraft.info/releases/
+RandomThings                 - https://minecraft.curseforge.com/projects/random-things
+Realistic Terrain Generation - https://mods.curse.com/mc-mods/minecraft/237989-realistic-terrain-generation#t1:other-downloads
+Roguelike Dungeons           - https://minecraft.curseforge.com/projects/roguelike-dungeons
+Storage Drawers              - https://mods.curse.com/mc-mods/minecraft/223852-storage-drawers
+Storage Drawers: Forestry    - https://minecraft.curseforge.com/projects/storage-drawers-forestry-pack
+Storage Drawers: Natura      - https://minecraft.curseforge.com/projects/storage-drawers-natura-pack
+Thaumcraft                   - https://mods.curse.com/mc-mods/minecraft/223628-thaumcraft
+Thaumic Energistics          - https://mods.curse.com/mc-mods/minecraft/223666-thaumic-energistics
+Thaumcraft Inventory Scan    - https://mods.curse.com/mc-mods/minecraft/238003-thaumcraft-inventory-scanning
+Thaumcraft Mob Aspects       - https://minecraft.curseforge.com/projects/thaumcraft-mob-aspects
+Thaumcraft NEI Plugin        - https://mods.curse.com/mc-mods/minecraft/225095-thaumcraft-nei-plugin
+Thaumcraft Node Tracker      - https://minecraft.curseforge.com/projects/thaumcraft-node-tracker
+Thaumic Tinkerer             - https://mods.curse.com/mc-mods/minecraft/thaumic-tinkerer
+Tic Tooltips                 - https://mods.curse.com/mc-mods/minecraft/tic-tooltips
+Tinkers Construct            - https://mods.curse.com/mc-mods/minecraft/tinkers-construct
+Traveller's Gear             - https://mods.curse.com/mc-mods/minecraft/224440-travellers-gear
+waila                        - https://minecraft.curseforge.com/projects/waila
+Waila Pluginz                - https://minecraft.curseforge.com/projects/waila-plugins
+Wawla                        - https://mods.curse.com/mc-mods/minecraft/224712-wawla-what-are-we-looking-at
+witching gadgets             - https://minecraft.curseforge.com/projects/witching-gadgets
