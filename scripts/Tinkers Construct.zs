@@ -545,11 +545,6 @@ furnace.addRecipe(<Botania:manaResource:4>, <ore:nuggetTerrasteel>*9, 0.0);
 furnace.addRecipe(<Botania:manaResource:7>, <ore:nuggetElvenElementium>*9, 0.0);
 furnace.addRecipe(<EnderIO:itemAlloy:5>, <ore:itemPhasedIronNugget>*9, 0.0);
 furnace.addRecipe(<EnderIO:itemAlloy:2>, <ore:itemVibrantNugget>*9, 0.0);
-furnace.addRecipe(<TConstruct:materials:14>, <TConstruct:materials:24>*9, 0.0);
-furnace.addRecipe(<TConstruct:materials:18>, <TConstruct:materials:27>*9, 0.0);
-furnace.addRecipe(<TConstruct:materials:15>, <TConstruct:materials:32>*9, 0.0);
-furnace.addRecipe(<TConstruct:materials:4>, <TConstruct:materials:29>*9, 0.0);
-furnace.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:30>*9, 0.0);
 furnace.addRecipe(<Thaumcraft:ItemResource:2>, <ore:nuggetThaumium>*9, 0.0);
 furnace.addRecipe(<Thaumcraft:ItemResource:16>, <ore:nuggetVoid>*9, 0.0);
 
@@ -563,6 +558,13 @@ mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:6>);
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:7>);
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:8>);
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:9>);
+
+// --- Nuget Nurf
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:24>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:27>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:32>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:29>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:30>);
 
 // --- DryingRack ---
 recipes.addShaped(<TConstruct:Armor.DryingRack>, 
