@@ -559,12 +559,13 @@ mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:7>);
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:8>);
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:9>);
 
-// --- Nuget Nurf
+// --- Nugget Nurf
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:24>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:27>);
-mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:32>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:28>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:29>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:30>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:32>);
 
 // --- DryingRack ---
 recipes.addShaped(<TConstruct:Armor.DryingRack>, 
