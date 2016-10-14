@@ -16,16 +16,6 @@ vanilla.loot.addChestLoot("strongholdLibrary", <infiniteinvo:unlock_slot>.weight
 vanilla.loot.addChestLoot("strongholdCrossing", <infiniteinvo:unlock_slot>.weight(35), 1, 2);
 vanilla.loot.addChestLoot("villageBlacksmith", <infiniteinvo:unlock_slot>.weight(35), 1, 2);
 
-vanilla.loot.addChestLoot("dungeonChest", <gregtech:gt.metaitem.01:2299>.weight(60), 1, 8);
-vanilla.loot.addChestLoot("mineshaftCorridor", <gregtech:gt.metaitem.01:2299>.weight(60), 1, 8);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <gregtech:gt.metaitem.01:2299>.weight(60), 1, 8);
-vanilla.loot.addChestLoot("pyramidJungleChest", <gregtech:gt.metaitem.01:2299>.weight(60), 1, 8);
-vanilla.loot.addChestLoot("pyramidJungleDispenser", <gregtech:gt.metaitem.01:2299>.weight(60), 1, 8);
-vanilla.loot.addChestLoot("strongholdCorridor", <gregtech:gt.metaitem.01:2299>.weight(60), 1, 8);
-vanilla.loot.addChestLoot("strongholdLibrary", <gregtech:gt.metaitem.01:2299>.weight(60), 1, 8);
-vanilla.loot.addChestLoot("strongholdCrossing", <gregtech:gt.metaitem.01:2299>.weight(60), 1, 8);
-vanilla.loot.addChestLoot("villageBlacksmith", <gregtech:gt.metaitem.01:2299>.weight(60), 1, 8);
-
 vanilla.loot.removeChestLoot("dungeonChest", <minecraft:obsidian>);
 vanilla.loot.removeChestLoot("mineshaftCorridor", <minecraft:obsidian>);
 vanilla.loot.removeChestLoot("pyramidDesertyChest", <minecraft:obsidian>);

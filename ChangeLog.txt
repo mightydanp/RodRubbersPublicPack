@@ -1,0 +1,6 @@
+-Changed Tinkers recipes and made them easier.
+-Made file cleaner.
+-Removed OpenBlocks book from spawning when loading a new world.
+-Fixed health regen.
+-Removed RougeLikeDungeons.
+-Added DoomLikeDungeons.
