@@ -202,10 +202,10 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11300>, <liquid:
 
 // ---Cobalt ---
 // ---Casting ---
+mods.tconstruct.Smeltery.removeMelting(<TConstruct:MetalBlock>);
 mods.tconstruct.Smeltery.addMelting(<TConstruct:SearedBrick:1>, <liquid:cobalt.molten> * 288, 650, <TConstruct:SearedBrick:1>);
 mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:3>, <liquid:cobalt.molten> * 144, 600, <gregtech:gt.blockmetal2:5>);
 mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:28>, <liquid:cobalt.molten> * 16, 550, <gregtech:gt.blockmetal2:5>);
-mods.tconstruct.Smeltery.addMelting(<TConstruct:MetalBlock>, <liquid:cobalt.molten> * 1296, 750, <TConstruct:MetalBlock>);
 
 // --- Obsidian ---
 // --- Basin ---
@@ -551,6 +551,9 @@ furnace.addRecipe(<Thaumcraft:ItemResource:16>, <ore:nuggetVoid>*9, 0.0);
 // --- Remove Block Casting
 mods.tconstruct.Casting.removeBasinRecipe(<minecraft:iron_block>);
 mods.tconstruct.Casting.removeBasinRecipe(<minecraft:gold_block>);
+mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock>);
+mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:1>);
+mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:2>);
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:3>);
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:4>);
 mods.tconstruct.Casting.removeBasinRecipe(<TConstruct:MetalBlock:5>);
