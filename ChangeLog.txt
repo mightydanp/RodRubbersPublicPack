@@ -5,4 +5,4 @@ V0.8.3.3
 -Fixed health regen.
 -Removed RougeLikeDungeons.
 -Added DoomLikeDungeons.
--Nugget Nurf
+-Fixed nugget and cobalt dupe.

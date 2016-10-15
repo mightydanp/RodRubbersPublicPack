@@ -34,6 +34,7 @@ Assembler.addRecipe(<TConstruct:heartCanister>, <gregtech:gt.metaitem.01:18019>,
 
 // Block of Cobalt
 recipes.remove(<TConstruct:MetalBlock>);
+Compressor.addRecipe(<TConstruct:MetalBlock:5>, <TConstruct:materials:3> * 9);
  
 // Block of Ardite
 recipes.remove(<TConstruct:MetalBlock:1>);
@@ -201,11 +202,11 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:13>);
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11300>, <liquid:bronze.molten> * 144, <TConstruct:metalPattern>, false, 60);
 
 // ---Cobalt ---
+mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:9033>);
+mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:2033>);
+mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:11033>);
+mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.blockmetal2.01:5>);
 // ---Casting ---
-mods.tconstruct.Smeltery.removeMelting(<TConstruct:MetalBlock>);
-mods.tconstruct.Smeltery.addMelting(<TConstruct:SearedBrick:1>, <liquid:cobalt.molten> * 288, 650, <TConstruct:SearedBrick:1>);
-mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:3>, <liquid:cobalt.molten> * 144, 600, <gregtech:gt.blockmetal2:5>);
-mods.tconstruct.Smeltery.addMelting(<TConstruct:materials:28>, <liquid:cobalt.molten> * 16, 550, <gregtech:gt.blockmetal2:5>);
 
 // --- Obsidian ---
 // --- Basin ---
@@ -496,13 +497,11 @@ recipes.remove(<TConstruct:materials:15>);
 // Obsidian Ingot
 furnace.remove(<TConstruct:materials:18>);
 
-// --- Alloy Smelter Recipes ---
-AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:3>, <TConstruct:materials:4>, 400, 16);
-AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:3>, <TConstruct:materials:38>, 400, 16);
-AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:39>, <TConstruct:materials:4>, 400, 16);
-AlloySmelter.addRecipe(<TConstruct:materials:5>, <TConstruct:materials:39>, <TConstruct:materials:38>, 400, 16);
- 
 // --- Extractor Recipes ---
+Extractor.addRecipe(<TConstruct:strangeFood> * 4, <TConstruct:slime.gel>);
+ 
+// Green Slime Ball
+Extractor.addRecipe(<minecraft:slime_ball> * 4, <TConstruct:slime.gel:1>);
  
 // Blue Slime Ball
 Extractor.addRecipe(<TConstruct:strangeFood>, <TConstruct:slime.sapling>);
