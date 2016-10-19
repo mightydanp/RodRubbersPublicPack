@@ -205,7 +205,7 @@ mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11300>, <liquid:
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:9033>);
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:2033>);
 mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.metaitem.01:11033>);
-mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.blockmetal2.01:5>);
+mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.blockmetal2:5>);
 // ---Casting ---
 
 // --- Obsidian ---

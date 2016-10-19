@@ -6,3 +6,4 @@ V0.8.3.3
 -Removed RougeLikeDungeons.
 -Added DoomLikeDungeons.
 -Fixed nugget and cobalt dupe.
+-gregified ironChest mod.
