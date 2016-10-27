@@ -1,9 +1,4 @@
-V0.8.3.3
--Changed Tinkers recipes and made them easier.
--Made file cleaner.
--Removed OpenBlocks book from spawning when loading a new world.
--Fixed health regen.
--Removed RougeLikeDungeons.
--Added DoomLikeDungeons.
--Fixed nugget and cobalt dupe.
--gregified ironChest mod.
+V0.8.3.4
+-gregified forstry.
+-updated mods.
+-fixed nurf.
