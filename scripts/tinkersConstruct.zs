@@ -569,13 +569,28 @@ mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:29>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:30>);
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:materials:32>);
 
-// --- DryingRack ---
+// --- DryingRack 
 recipes.addShaped(<TConstruct:Armor.DryingRack>, 
     [[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 
-// --- Cutlass ---
+// --- Cutlass 
 recipes.addShaped(<TConstruct:woodPattern:22>, [[<TConstruct:blankPattern>, <minecraft:string>, <TConstruct:woodPattern:7>], [<minecraft:string>, <TConstruct:woodPattern:8>, <minecraft:string>], [<TConstruct:woodPattern:6>, <minecraft:string>, <TConstruct:blankPattern>]]);
 
-// --- Ball of Moss Fix
+// --- Ball of Moss Fix 
 recipes.remove(<TConstruct:materials:6>);
 recipes.addShaped(<TConstruct:materials:6>, [[<ore:stoneMossy>, <ore:stoneMossy>, <ore:stoneMossy>], [<ore:stoneMossy>, <minecraft:vine>, <ore:stoneMossy>], [<ore:stoneMossy>, <ore:stoneMossy>, <ore:stoneMossy>]]);
+
+// --- Obsidian with cast
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:15>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:14>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:16>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:metalPattern:22>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:Cast:1>);
+mods.tconstruct.Casting.removeTableRecipe(<TConstruct:Cast:2>);
+
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern:15>, <liquid:gold.molten> * 288, <TConstruct:toughBinding:6>, true, 60);
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern:14>, <liquid:gold.molten> * 288, <TConstruct:toughRod:6>, true, 60);
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern:16>, <liquid:gold.molten> * 288, <TConstruct:heavyPlate:6>, true, 60);
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern:22>, <liquid:gold.molten> * 288, <TConstruct:fullGuard:6>, true, 60);
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:Cast:1>, <liquid:gold.molten> * 288, <TConstruct:CrossbowLimbPart:6>, true, 60);
+mods.tconstruct.Casting.addTableRecipe(<TConstruct:Cast:2>, <liquid:gold.molten> * 288, <TConstruct:CrossbowBodyPart:6>, true, 60); 

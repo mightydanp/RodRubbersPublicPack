@@ -25,7 +25,6 @@ NEI.hide(<lom:DinoBone>);
 NEI.hide(<lom:DinoFur>);
 NEI.hide(<lom:Amber>);
 recipes.remove(<lom:IcemintuimBar>);
-furnace.remove(<lom:IcemintuimBar>);
 NEI.hide(<lom:IcemintuimBar>);
 NEI.hide(<lom:Salt>);
 NEI.hide(<lom:FossilTri>);
