@@ -2,3 +2,6 @@ V0.8.3.4
 -gregified forstry.
 -updated mods.
 -fixed nurf.
+-removed wither from spawning in rld.
+-removed small pile of iron.
+-removed darkness in the nether
