@@ -634,7 +634,7 @@ recipes.remove(<ore:craftingToolPickaxe>);
 
 recipes.remove(<minecraft:piston>);
 recipes.remove(<TConstruct:materials:31>);
-recipes.addShaped(<minecraft:piston>, [[<minecraft:planks>, <ore:plankWood>, <ore:plankWood>], [<ore:stoneCobble>, <ore:stickLongIron>, <ore:stoneCobble>], [<ore:stoneCobble>, <ore:dustRedstone>, <ore:stoneCobble>]]);
+recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:stoneCobble>, <ore:stickLongIron>, <ore:stoneCobble>], [<ore:stoneCobble>, <ore:dustRedstone>, <ore:stoneCobble>]]);
 
 recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<ore:listAllwater>, <gregtech:gt.metaitem.01:2881>]);
 recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [[<Natura:barleyFood>], [<ore:craftingToolMortar>]]);

@@ -47,10 +47,10 @@ for ingotSteel in <ore:ingotSteel>.items {
   InfernalBlastfurnace.removeRecipe(blockSteel);
 }
  for ingotIron in <ore:ingotIron>.items  {
-InfernalBlastfurnace.addRecipe(WroughtIronIngot, ingotIron, 1200, null, true);
+InfernalBlastfurnace.addRecipe(WroughtIronIngot, ingotIron, 2400, null, true);
 }
  for ingotWroughtIron in <ore:ingotWroughtIron>.items  {
-InfernalBlastfurnace.addRecipe(SteelIngot, ingotWroughtIron, 1200, null, true);
+InfernalBlastfurnace.addRecipe(SteelIngot, ingotWroughtIron, 4800, null, true);
 }
  
 //BagFixes

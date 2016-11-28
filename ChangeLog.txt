@@ -1,24 +1,11 @@
-V0.8.4
-
--updated gregtech,forestry, gregtech++, modtweaker.
+V0.8.5
 
 added:
-    -walia habitability.
-	-wireless AE Crafting Terminals.
-	-autopackager.
+
 changed:
-    -Gregified forstry.
-    -Fixed nugget nurf.
-	-Wither will no longer spawn in DoomLikeDungeons.
-	-Small piles of iron will no longer spawn to make the transition from
-	    bronze to iron more forced.
-	-The darkness had been removed from the nether.
-	-The tinkers Forge now requires you to use obsidian to make a cast on the higher tiered casts, tough rod, tough binding, crossbow ect..
-	-There is a 1 percent change for a wither to drop a new special item.
-	-Added Matterials back to some parts.
-	-No more version checks on mods.
-	-You will no longer spawn with any books.
+    -Lowered tank capacity.
+	-Fixed Tinkers crossbow parts.
+    -Piston Recipe
+	-Trapdoor recipe in thaumcraft to accept any trapdoor.
 	
 deleted:
-    -Wawla.
-	-compacter.
