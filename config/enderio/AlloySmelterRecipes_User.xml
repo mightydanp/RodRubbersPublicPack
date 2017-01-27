@@ -25,33 +25,32 @@ ore dictionary.
 <AlloySmelterRecipes>
 
   <recipeGroup name="Thermal Expansion" enabled="false" />
+  <recipeGroup name="EnderIO" >
+    <!-- Disabled Recipes -->
+    <!-- requires Gregtech Electric Blast Furnace -->
+    <recipe name="Electrical Steel"/>
+    <recipe name="Dark Steel"/>
+    <!-- Replaced by Gregtech Red Alloy -->
+    <recipe name="Redstone Alloy" />
 
-	<vanillaFurnaceRecipes>
-    <exclude>
-      <itemStack modID="MineFactoryReloaded" itemName="item.mfr.rubber.raw" />
-	  <itemStack modID="MineFactoryReloaded" itemName="item.mfr.rubber.bar" />
-    </exclude>
-	</vanillaFurnaceRecipes>
-
-  <recipeGroup name="EnderIO"> <!-- Required for EnderIO to function correctly. -->
-    <recipe name="Energetic Alloy" energyCost="10000">
+	<recipe name="Energetic Alloy" energyCost="10000" >
       <input>
-        <itemStack modID="minecraft" itemName="redstone"/>
-        <itemStack modID="minecraft" itemName="gold_ingot"/>
-        <itemStack modID="minecraft" itemName="glowstone_dust"/>
+        <itemStack modID="minecraft" itemName="redstone" />
+        <itemStack modID="minecraft" itemName="gold_ingot" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" />
       </input>
       <output>
-        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="1" exp="0.7"/>
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11202" exp="0.7" />
       </output>
     </recipe>
 
     <recipe name="Vibrant Alloy" energyCost="10000">
       <input>
-        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="1"/> <!-- Energetic Alloy -->
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11202"/> <!-- Energetic Alloy -->
         <itemStack modID="minecraft" itemName="ender_pearl"/>
       </input>
       <output>
-        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="2" exp="1"/>
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11203" exp="1"/>
       </output>
     </recipe>
 
@@ -61,7 +60,7 @@ ore dictionary.
 -       <itemStack modID="minecraft" itemName="iron_ingot"/>
 -     </input>
 -     <output>
--       <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="4" exp="0.5"/>
+-       <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11200" exp="0.5"/>
 -     </output>
 -   </recipe>
 -
@@ -71,7 +70,7 @@ ore dictionary.
       <itemStack modID="minecraft" itemName="ender_pearl"/>
       </input>
       <output>
-        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="5" exp="0.7"/>
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11201" exp="0.7"/>
       </output>
     </recipe>
 
@@ -212,14 +211,6 @@ ore dictionary.
             <itemStack modID="EnderIO" itemName="blockFusedQuartz" itemMeta="2" exp="0.5"/>
         </output>
     </recipe>
-
-    <!-- Disabled Recipes -->
-    <!-- requires Gregtech Electric Blast Furnace -->
-    <recipe name="Electrical Steel"/>
-    <recipe name="Dark Steel"/>
-    <!-- Replaced by Gregtech Red Alloy -->
-    <recipe name="Redstone Alloy" />
-
   </recipeGroup>
 
 </AlloySmelterRecipes>

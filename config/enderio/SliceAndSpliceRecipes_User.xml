@@ -1,3 +1,19 @@
 <SliceAndSpliceRecipes>
 
+  <recipeGroup name="EnderIO" >
+    <recipe name="Electrode Skull" energyCost="20000" >
+      <input>
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11202" slot="0" />
+        <itemStack modID="minecraft" itemName="skull" itemMeta="2" slot="1" />
+        <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11202" slot="2" />
+        <itemStack oreDictionary="itemSilicon" slot="3" />
+        <itemStack modID="EnderIO" itemName="itemBasicCapacitor" itemMeta="0" slot="4" />
+        <itemStack oreDictionary="itemSilicon" slot="5" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemFrankenSkull" itemMeta="0" />
+      </output>
+    </recipe>
+
 </SliceAndSpliceRecipes>
+
