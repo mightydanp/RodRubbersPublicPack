@@ -6,8 +6,8 @@ import mods.gregtech.FluidSolidifier;
 import mods.ic2.Compressor;
 import mods.ic2.Macerator;
 
-var magicalWood = <extrautils2:DecorativeSolidWood:0>;
-var magicalPlanks = <extrautils2:DecorativeSolidWood:1>;
+var magicalWood = <extrautils2:DecorativeSolidWood:1>;
+var magicalPlanks = <extrautils2:DecorativeSolidWood:0>;
 var stoneDrum = <extrautils2:Drum:0>;
 var ironDrum = <extrautils2:Drum:1>;
 var reinforcedDrum = <extrautils2:Drum:2>;
@@ -105,25 +105,21 @@ recipes.addShaped(magicalPlanks * 4, [
 [saw],
 [magicalWood]]);
 
-recipes.remove(magicalPlanks);
 recipes.addShapeless(magicalPlanks * 2, [magicalWood]);
 recipes.addShaped(magicalPlanks * 4, [
 [sawlv],
 [magicalWood]]);
 
-recipes.remove(magicalPlanks);
 recipes.addShapeless(magicalPlanks * 2, [magicalWood]);
 recipes.addShaped(magicalPlanks * 4, [
 [sawmv],
 [magicalWood]]);
 
-recipes.remove(magicalPlanks);
 recipes.addShapeless(magicalPlanks * 2, [magicalWood]);
 recipes.addShaped(magicalPlanks * 4, [
 [sawhv],
 [magicalWood]]);
 
-recipes.remove(magicalPlanks);
 recipes.addShapeless(magicalPlanks * 2, [magicalWood]);
 recipes.addShaped(magicalPlanks * 4, [
 [buzzsaw],
