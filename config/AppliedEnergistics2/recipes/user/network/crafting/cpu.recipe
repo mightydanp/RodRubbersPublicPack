@@ -1,37 +1,37 @@
 shaped=
-    oredictionary:ingotIron ae2:material.CalcProcessor oredictionary:ingotIron,
-    cable ae2:material.LogicProcessor cable,
-    oredictionary:ingotIron ae2:material.CalcProcessor oredictionary:ingotIron
-    -> ae2:crafting_unit
+    mc:iron_ingot ae2:ItemMaterial.CalcProcessor mc:iron_ingot,
+    cable ae2:ItemMaterial.LogicProcessor cable,
+    mc:iron_ingot ae2:ItemMaterial.CalcProcessor mc:iron_ingot
+    -> ae2:BlockCraftingUnit:0
 
 # co processor
 shapeless=
-    ae2:crafting_unit
-    ae2:material.EngProcessor
-    -> ae2:crafting_accelerator
+    ae2:BlockCraftingUnit:0
+    ae2:ItemMaterial.EngProcessor
+    -> ae2:BlockCraftingUnit:1
 
 shapeless=
-    ae2:crafting_unit
-    ae2:part.StorageMonitor
-    -> ae2:crafting_monitor
+    ae2:BlockCraftingUnit:0
+    ae2:ItemPart.StorageMonitor
+    -> ae2:BlockCraftingMonitor
 
 # various storage sizes
 shapeless=
-    ae2:crafting_unit
-    ae2:material.Cell1kPart
-    -> ae2:crafting_storage_1k
+    ae2:BlockCraftingUnit:0
+    ae2:ItemMaterial.Cell1kPart
+    -> ae2:BlockCraftingStorage:0
 
 shapeless=
-    ae2:crafting_unit
-    ae2:material.Cell4kPart
-    -> ae2:crafting_storage_4k
+    ae2:BlockCraftingUnit:0
+    ae2:ItemMaterial.Cell4kPart
+    -> ae2:BlockCraftingStorage:1
 
 shapeless=
-    ae2:crafting_unit
-    ae2:material.Cell16kPart
-    -> ae2:crafting_storage_16k
+    ae2:BlockCraftingUnit:0
+    ae2:ItemMaterial.Cell16kPart
+    -> ae2:BlockCraftingStorage:2
 
 shapeless=
-    ae2:crafting_unit
-    ae2:material.Cell64kPart
-    -> ae2:crafting_storage_64k
+    ae2:BlockCraftingUnit:0
+    ae2:ItemMaterial.Cell64kPart
+    -> ae2:BlockCraftingStorage:3

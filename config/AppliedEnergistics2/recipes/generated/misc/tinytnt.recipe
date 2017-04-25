@@ -1,4 +1,4 @@
 shaped=
     dustQuartz mc:gunpowder,
     mc:gunpowder dustQuartz
-    -> ae2:tiny_tnt
+    -> ae2:BlockTinyTNT

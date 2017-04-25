@@ -1,23 +1,23 @@
 shaped=
-    ae2:chest ae2:material.Cell1kPart ae2:energy_cell
-    -> ae2:portable_cell
+    ae2:BlockChest ae2:ItemMaterial.Cell1kPart ae2:BlockEnergyCell
+    -> ae2:ToolPortableCell
     
 shapeless=
-    wrench monitor ae2:material.CalcProcessor oredictionary:chestWood
-    -> ae2:network_tool
+    wrench monitor ae2:ItemMaterial.CalcProcessor oredictionary:chestWood
+    -> ae2:ToolNetworkTool
     
 shaped=
-    ae2:material.EngProcessor oredictionary:ingotIron oredictionary:ingotIron,
+    ae2:ItemMaterial.EngProcessor oredictionary:ingotIron oredictionary:ingotIron,
     oredictionary:ingotGold oredictionary:dustRedstone oredictionary:ingotGold
-    -> ae2:biometric_card
+    -> ae2:ToolBiometricCard
 
 shaped=
-    ae2:material.CalcProcessor oredictionary:ingotIron oredictionary:ingotIron,
+    ae2:ItemMaterial.CalcProcessor oredictionary:ingotIron oredictionary:ingotIron,
     oredictionary:ingotGold oredictionary:dustRedstone oredictionary:ingotGold
-    -> ae2:memory_card
+    -> ae2:ToolMemoryCard
     
 shaped=
-    ae2:material.FormationCore oredictionary:ingotIron _,
-    oredictionary:ingotIron ae2:material.Cell4kPart _,
-    _ _ ae2:energy_cell
-    -> ae2:color_applicator
+    ae2:ItemMaterial.FormationCore oredictionary:ingotIron _,
+    oredictionary:ingotIron ae2:ItemMaterial.Cell4kPart _,
+    _ _ ae2:BlockEnergyCell
+    -> ae2:ToolColorApplicator

@@ -28,13 +28,13 @@ val plateIron = <ore:plateIron>;
 val plateRedstone = <ore:plateRedstone>;
 val plateRubber = <ore:plateRubber>;
 val plateSteel = <ore:plateSteel>;
-val rawCarbonMesh = <ic2:crafting:14>;
+val rawCarbonMesh = <IC2:itemPartCarbonMesh>;
 val stickWood = <ore:stickWood>;
 val stoneMarble = <ore:stoneMarble>;
 
 # Fluids
 
-val distilledWater = <liquid:ic2distilled_water>;
+val distilledWater = <liquid:ic2distilledwater>;
 val glue = <liquid:glue>;
 val lubricant = <liquid:lubricant>;
 val water = <liquid:water>;
@@ -43,8 +43,8 @@ val water = <liquid:water>;
 
 val BlockRedstone = <minecraft:redstone_block>;
 val BlockGlowstone = <minecraft:glowstone>;
-val IngotElectricalSteel = <gregtech:gt.metaitem.01:11201>;
-val StickyResin = <ic2:misc_resource:4>;
+val IngotElectricalSteel = <EnderIO:itemAlloy:0>;
+val StickyResin = <IC2:itemHarz>;
 
 # This mod items
 
@@ -99,9 +99,89 @@ val salt = <gregtech:gt.metaitem.01:2817>;
 val shutterModule = <gregtech:gt.metaitem.01:32749>;
 val upgradeMuffler = <gregtech:gt.metaitem.01:32727>;
 
+# Tweaks
+
+// Easier Compression Recipes for soft material plates from dusts
+val platesFromDusts = {
+  <gregtech:gt.metaitem.01:17010> : <ore:dustCarbon>,
+  <gregtech:gt.metaitem.01:17501> : <ore:dustEmerald>,
+  <gregtech:gt.metaitem.01:17502> : <ore:dustRuby>,
+  <gregtech:gt.metaitem.01:17503> : <ore:dustSapphire>,
+  <gregtech:gt.metaitem.01:17504> : <ore:dustGreenSapphire>,
+  <gregtech:gt.metaitem.01:17505> : <ore:dustOlivine>,
+  <gregtech:gt.metaitem.01:17507> : <ore:dustTopaz>,
+  <gregtech:gt.metaitem.01:17508> : <ore:dustTanzanite>,
+  <gregtech:gt.metaitem.01:17509> : <ore:dustAmethyst>,
+  <gregtech:gt.metaitem.01:17510> : <ore:dustOpal>,
+  <gregtech:gt.metaitem.01:17511> : <ore:dustJasper>,
+  <gregtech:gt.metaitem.01:17512> : <ore:dustFoolsRuby>,
+  <gregtech:gt.metaitem.01:17513> : <ore:dustBlueTopaz>,
+  <gregtech:gt.metaitem.01:17514> : <ore:dustAmber>,
+  <gregtech:gt.metaitem.01:17518> : <ore:dustForcicium>,
+  <gregtech:gt.metaitem.01:17519> : <ore:dustForcillium>,
+  <gregtech:gt.metaitem.01:17520> : <ore:dustMonazite>,
+  <gregtech:gt.metaitem.01:17523> : <ore:dustQuartzite>,
+  <gregtech:gt.metaitem.01:17524> : <ore:dustLazurite>,
+  <gregtech:gt.metaitem.01:17525> : <ore:dustSodalite>,
+  <gregtech:gt.metaitem.01:17526> : <ore:dustLapis>,
+  <gregtech:gt.metaitem.01:17527> : <ore:dustGarnetRed>,
+  <gregtech:gt.metaitem.01:17528> : <ore:dustGarnetYellow>,
+  <gregtech:gt.metaitem.01:17529> : <ore:dustVinteum>,
+  <gregtech:gt.metaitem.01:17530> : <ore:dustApatite>,
+  <gregtech:gt.metaitem.01:17531> : <ore:dustNiter>,
+  <gregtech:gt.metaitem.01:17532> : <ore:dustEnderPearl>,
+  <gregtech:gt.metaitem.01:17533> : <ore:dustEnderEye>,
+  <gregtech:gt.metaitem.01:17534> : <ore:dustPhosphorus>,
+  <gregtech:gt.metaitem.01:17535> : <ore:dustCoal>,
+  <gregtech:gt.metaitem.01:17536> : <ore:dustCharcoal>,
+  <gregtech:gt.metaitem.01:17538> : <ore:dustLignite>,
+  <gregtech:gt.metaitem.01:17540> : <ore:dustInfusedAir>,
+  <gregtech:gt.metaitem.01:17541> : <ore:dustInfusedFire>,
+  <gregtech:gt.metaitem.01:17542> : <ore:dustInfusedEarth>,
+  <gregtech:gt.metaitem.01:17543> : <ore:dustInfusedWater>,
+  <gregtech:gt.metaitem.01:17544> : <ore:dustInfusedEntropy>,
+  <gregtech:gt.metaitem.01:17545> : <ore:dustInfusedOrder>,
+  <gregtech:gt.metaitem.01:17810> : <ore:dustRedstone>,
+  <gregtech:gt.metaitem.01:17811> : <ore:dustGlowstone>
+} as IIngredient[IItemStack];
+
+for plate, dust in platesFromDusts {
+  Compressor.addRecipe(plate, dust);
+}
+
 // Alternate Block recipes
 Compressor.addRecipe(BlockRedstone, plateRedstone * 9);
 Compressor.addRecipe(BlockGlowstone, plateGlowstone * 4);
+
+// Workbench recipe for Sound Muffler Upgrade
+recipes.addShaped(upgradeMuffler, [
+  [plateIron, StickyResin, blockWool]
+]);
+
+// Missing Wood Ring recipe
+recipes.addShaped(ringWood ,[
+  [craftingToolHardHammer, null, null],
+  [null, stickWood, null],
+  [null, null, null]
+]);
+
+// EnderIO Electrical Steel
+BlastFurnace.addRecipe([IngotElectricalSteel * 4, dustSmallDarkAsh * 2], null,  [ingotSteel * 3, ingotSilicon * 1], 2000, 120, 1000);
+
+// Pulbirezer recipes for Wood Logs
+for logWood in <ore:logWood>.items
+{
+  Pulverizer.addRecipe([dustWood * 6, <gregtech:gt.metaitem.01:2809>], logWood, [10000, 8000], 400, 2);
+}
+
+for stoneMarble in <ore:stoneMarble>.items {
+  Pulverizer.addRecipe([dustInpureMarble, dustMarble], stoneMarble, [10000, 1000], 400, 2);
+}
+
+for stoneBasalt in <ore:stoneBasalt>.items {
+  Pulverizer.addRecipe([dustInpureBasalt, dustBasalt], stoneBasalt, [10000, 1000], 400, 2);
+}
+
 
 # --- OreDictionary registrations ---
 
@@ -206,7 +286,7 @@ Compressor.addRecipe(BlockGlowstone, plateGlowstone * 4);
 <ore:batterySodium>.add(batterySodiumSmall);
 
 // IC2 Basic
-for batteryRE in [<ic2:re_battery>, <ic2:re_battery:*>] as IItemStack[] {
+for batteryRE in [<IC2:itemBatREDischarged>, <IC2:itemBatRE:*>] as IItemStack[] {
   <ore:battery>.add(batteryRE);
   <ore:batteryReusable>.add(batteryRE);
   <ore:batterySmall>.add(batteryRE);
@@ -480,10 +560,81 @@ for cable, wire in cablesFromWires {
   Assembler.addRecipe(cable, wire, ic24, fluid, 100, 8);
 }
 
+// --- Chisel blocks processing ---
+
+// DACITE
+
+//  public static void addRecipe(IItemStack[] outputs, ILiquidStack fluidOutput, IItemStack input, IItemStack cells, ILiquidStack fluidInput, int[] chances, int durationTicks, int euPerTick) {
+Centrifuge.addRecipe(
+  // IItemStack[] outputs,
+  [
+    dustBiotite,
+    dustRhyolite
+  ],
+
+  // ILiquidStack fluidOutput, IItemStack input,
+  null,
+  dustDacite * 2,
+
+  // IItemStack cells, ILiquidStack fluidInput,
+  null, null,
+
+  // int[] chances,
+  [10000, 10000],
+
+  // int durationTicks, int euPerTick
+  400, 16
+);
+
+
+// RHYOLITE
+
+Centrifuge.addRecipe(
+  // IItemStack[] outputs,
+  [
+    dustBiotite,
+    dustSiliconDioxide * 3,
+  ],
+  // ILiquidStack fluidOutput, IItemStack input,
+  null,
+  dustRhyolite * 4,
+
+  // IItemStack cells, ILiquidStack fluidInput,
+  null, null,
+
+  // int[] chances,
+  [10000, 10000],
+
+  // int durationTicks, int euPerTick
+  256, 16
+);
+
+recipes.addShaped(machineCasingMotor * 4, [
+  [boltIron, plateSteel, boltIron],
+  [plateSteel, craftingToolWrench ,plateSteel],
+  [boltIron, plateSteel, boltIron]
+]);
+
+for craftingDuctTape in <ore:craftingDuctTape>.items {
+  recipes.addShaped(craftingDuctTape, [
+    [plateRubber, plateRubber, plateRubber],
+    [StickyResin, crateGtDustRubber, StickyResin],
+    [rawCarbonMesh, rawCarbonMesh, rawCarbonMesh]
+  ]);
+}
+
+//Shutter Recipe Fix (caused by Malysis's doors)
+for plates in [plateAnyIron, plateAluminium] as IIngredient[] {
+  for plate in plates.items {
+    Assembler.addRecipe(shutterModule * 2, plate * 2, ironDoor * 1, 800, 16);
+  }
+}
+
 recipes.remove(<ore:craftingToolPickaxe>);
 
 recipes.remove(<minecraft:piston>);
+recipes.remove(<TConstruct:materials:31>);
 recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:stoneCobble>, <ore:stickLongIron>, <ore:stoneCobble>], [<ore:stoneCobble>, <ore:dustRedstone>, <ore:stoneCobble>]]);
 
 recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<ore:listAllwater>, <gregtech:gt.metaitem.01:2881>]);
-recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [[<natura:materials:1>], [<ore:craftingToolMortar>]]);
+recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [[<Natura:barleyFood>], [<ore:craftingToolMortar>]]);

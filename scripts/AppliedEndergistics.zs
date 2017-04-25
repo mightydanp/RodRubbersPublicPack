@@ -1,34 +1,35 @@
+
 // appliedenergistics2.zs Tweaks
 
 import mods.ic2.Compressor;
 
 // Ingredients
-val basicCard = <appliedenergistics2:material:25>;
+val basicCard = <appliedenergistics2:item.ItemMultiMaterial:25>;
 val dustEnderPearl = <ore:dustEnderPearl>;
 val dustFluix = <ore:dustFluix>;
 val dustGlowstone = <ore:dustGlowstone>;
 val dustRedstone = <ore:dustRedstone>;
 val gemCertusQuartz = <ore:gemCertusQuartz>;
-val gemChargedCertusQuartz = <appliedenergistics2:material:1>;
+val gemChargedCertusQuartz = <appliedenergistics2:item.ItemMultiMaterial:1>;
 val gemNetherQuartz = <ore:gemNetherQuartz>;
 val gemFluix = <ore:gemFluix>;
 val ingotIron = <ore:ingotIron>;
-val logicProcessor = <appliedenergistics2:material:22>;
-val quartzGlass = <appliedenergistics2:quartz_glass>;
+val logicProcessor = <appliedenergistics2:item.ItemMultiMaterial:22>;
+val quartzGlass = <appliedenergistics2:tile.BlockQuartzGlass>;
 
 // Recipes outputs
-val annihilationCore = <appliedenergistics2:material:44>;
-val capacityCard = <appliedenergistics2:material:27>;
-val circuitLogic = <appliedenergistics2:material:22>;
-val blankPattern = <appliedenergistics2:material:52>;
-val blockCertusQuartz  = <appliedenergistics2:quartz_block>;
-val blockFluix = <appliedenergistics2:fluix_block>;
-val energyCell = <appliedenergistics2:energy_cell>;
-val formationCore = <appliedenergistics2:material:43>;
-val lightDetector = <appliedenergistics2:light_detector>;
-val componentStorage1k = <appliedenergistics2:material:35>;
-val viewCell = <appliedenergistics2:view_cell>;
-val wirelessBooster = <appliedenergistics2:material:42>;
+val annihilationCore = <appliedenergistics2:item.ItemMultiMaterial:44>;
+val capacityCard = <appliedenergistics2:item.ItemMultiMaterial:27>;
+val circuitLogic = <appliedenergistics2:item.ItemMultiMaterial:22>;
+val blankPattern = <appliedenergistics2:item.ItemMultiMaterial:52>;
+val blockCertusQuartz  = <appliedenergistics2:tile.BlockQuartz>;
+val blockFluix = <appliedenergistics2:tile.BlockFluix>;
+val energyCell = <appliedenergistics2:tile.BlockEnergyCell>;
+val formationCore = <appliedenergistics2:item.ItemMultiMaterial:43>;
+val lightDetector = <appliedenergistics2:tile.BlockLightDetector>;
+val componentStorage1k = <appliedenergistics2:item.ItemMultiMaterial:35>;
+val viewCell = <appliedenergistics2:item.ItemViewCell>;
+val wirelessBooster = <appliedenergistics2:item.ItemMultiMaterial:42>;
 
 // Fix recipes to not spend Pure/Charged Quartz when not required
 
@@ -104,5 +105,4 @@ recipes.addShaped(viewCell, [
 ]);
 
 //
-//mods.appeng.Grinder.removeRecipe(<ImmersiveEngineering:metal:11>);
-//mods.appeng.Grinder.addRecipe(<minecraft:cobblestone>, <gregtech:gt.meta01:299> * 1, 4, <gregtech:gt.meta01:299>* 2, 0.20,  <gregtech:gt.meta01:3299>* 1, 0.25);
+mods.appeng.Grinder.addRecipe(<minecraft:cobblestone>, <gregtech:gt.metaitem.01:299> * 1, 4, <gregtech:gt.metaitem.01:299>* 2, 0.20,  <gregtech:gt.metaitem.01:3299>* 1, 0.25);

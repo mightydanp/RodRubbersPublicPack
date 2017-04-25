@@ -21,65 +21,65 @@ val HvPump = <gregtech:gt.metaitem.01:32612>;
 val LuVFieldGen = <gregtech:gt.metaitem.01:32675>;
 val LuVMotor = <gregtech:gt.metaitem.01:32606>;
 val IronFurnace = <ore:craftingIronFurnace>;
-val MCasing = <enderio:itemMachinePart>;
+val MCasing = <EnderIO:itemMachinePart>;
 val Circuit = <ore:circuitBasic>;
 val GCircuit = <ore:circuitGood>;
 val AdvCircuit = <ore:circuitAdvanced>;
 val EnergyFlowCircuit = <ore:circuitMaster>;
-val IronCasing = <ic2:casing:3>;
-val SteelCasing = <ic2:casing:5>;
+val IronCasing = <IC2:itemCasing:4>;
+val SteelCasing = <IC2:itemCasing:5>;
 val AluCasing = <ore:plateAluminium>;
 val IronRotor = <ore:rotorIron>;
 val SteelRotor = <ore:rotorSteel>;
-val Tank = <enderio:blockTank>;
-val FQuartz = <enderio:blockFusedQuartz>;
+val Tank = <EnderIO:blockTank>;
+val FQuartz = <EnderIO:blockFusedQuartz>;
 val LvPiston = <gregtech:gt.metaitem.01:32640>;
-val Capacitor = <enderio:itemBasicCapacitor>;
-val Capacitor2 = <enderio:itemBasicCapacitor:1>;
-val Capacitor3 = <enderio:itemBasicCapacitor:2>;
-val VAPlate =<gregtech:gt.metaitem.01:17203>;
+val Capacitor = <EnderIO:itemBasicCapacitor>;
+val Capacitor2 = <EnderIO:itemBasicCapacitor:1>;
+val Capacitor3 = <EnderIO:itemBasicCapacitor:2>;
+val VAPlate = <ore:plateVibrantAlloy>;
 val PIPlate = <ore:platePhasedIron>;
-val EAPlate = <gregtech:gt.metaitem.01:17202>;
+val EAPlate = <ore:plateEnergeticAlloy>;
 val DiamondGear = <ore:gearDiamond>;
 val Cauldron = <minecraft:cauldron>;
-val VCrystal = <enderio:itemMaterial:6>;
+val VCrystal = <EnderIO:itemMaterial:6>;
 val RedstonePlate = <ore:plateRedstone>;
-val ESteelPlate = <gregtech:gt.metaitem.01:17201>;
+val ESteelPlate = <ore:plateElectricalSteel>;
 val Display = <ore:oc:screen1>;
-val ConduitProbe = <enderio:itemConduitProbe>;
-val EConduit = <enderio:itemPowerConduit>;
-val ZElectrode = <enderio:itemFrankenSkull>;
-val ZLogic = <enderio:itemFrankenSkull:1>;
-val FZombi = <enderio:itemFrankenSkull:2>;
-val PCrystal = <enderio:itemMaterial:5>;
-val EResonator = <enderio:itemFrankenSkull:3>;
+val ConduitProbe = <EnderIO:itemConduitProbe>;
+val EConduit = <EnderIO:itemPowerConduit>;
+val ZElectrode = <EnderIO:itemFrankenSkull>;
+val ZLogic = <EnderIO:itemFrankenSkull:1>;
+val FZombi = <EnderIO:itemFrankenSkull:2>;
+val PCrystal = <EnderIO:itemMaterial:5>;
+val EResonator = <EnderIO:itemFrankenSkull:3>;
 val SteelBars = <ore:ingotSteel>;
-val IronTank = <enderio:blockDarkIronBars>;
-val DarkSteelBars = <enderio:blockDarkIronBars>;
-val DarkSteelPlate = <gregtech:gt.metaitem.01:17364>;
-val SEnder = <enderio:itemFrankenSkull:4>;
-val ECrystal = <enderio:itemMaterial:8>;
+val IronTank = <EnderIO:blockDarkIronBars>;
+val DarkSteelBars = <EnderIO:blockDarkIronBars>;
+val DarkSteelPlate = <ore:plateDarkSteel>;
+val SEnder = <EnderIO:itemFrankenSkull:4>;
+val ECrystal = <EnderIO:itemMaterial:8>;
 val Chest = <ore:chestWood>;
 val LvConveyor =  <gregtech:gt.metaitem.01:32630>;
-val RAUpgrade = <enderio:itemFunctionUpgrade>;
+val RAUpgrade = <EnderIO:itemFunctionUpgrade>;
 val DarkSteelRing = <ore:ringDarkSteel>;
 val DarkSteelScrew = <ore:screwDarkSteel>;
-val WCrystal = <enderio:itemMaterial:10>;
+val WCrystal = <EnderIO:itemMaterial:10>;
 val EnderEyeLens = <ore:lensEnderEye>;
 val MvFieldGen = <gregtech:gt.metaitem.01:32671>;
 val SPlate = <ore:plateSoularium>;
 val Shears = <minecraft:shears>;
 val IronAxe = <minecraft:iron_axe>;
 val Skull = <ore:itemSkull>;
-val EntCrystal = <enderio:itemMaterial:9>;
-val TEnderman = <enderio:blockEndermanSkull:2>;
-val EXPRod = <enderio:itemXpTransfer>;
+val EntCrystal = <EnderIO:itemMaterial:9>;
+val TEnderman = <EnderIO:blockEndermanSkull:2>;
+val EXPRod = <EnderIO:itemXpTransfer>;
 val Lava = <ore:bucketLava>;
 val Water = <ore:bucketWater>;
-val CapacitorB2 = <enderio:blockCapBank:2>;
+val CapacitorB2 = <EnderIO:blockCapBank:2>;
 val ETable = <minecraft:enchanting_table>;
 val Book = <ore:crafting Book>;
-val DarkIronBars = <enderio:blockDarkIronBars>;
+val DarkIronBars = <EnderIO:blockDarkIronBars>;
 val Hammer = <ore:craftingToolHardHammer>;
 val Wrench = <ore:craftingToolWrench>;
 val Screwdriver = <ore:craftingToolScrewdriver>;
@@ -93,12 +93,12 @@ val Obsidian = <ore:blockObsidian>;
 val EnderEye = <ore:gemEnderEye>;
 val Compass = <minecraft:compass>;
 val RAPlate = <ore:plateRedstoneAlloy>;
-val Binder = <enderio:itemMaterial:1>;
-val CIPlate = <gregtech:gt.metaitem.01:17200>;
+val Binder = <EnderIO:itemMaterial:1>;
+val CIPlate = <ore:plateConductiveIron>;
 val ESteelIngot = <ore:ingotElectricalSteel>;
 val ESteelGear = <ore:gearSteel>;
 val Compartor = <minecraft:comparator>;
-val IRConduit = <enderio:itemRedstoneConduit:2>;
+val IRConduit = <EnderIO:itemRedstoneConduit:2>;
 val VAScrew = <ore:screwVibrantAlloy>;
 val DarkSteelRod = <ore:stickDarkSteel>;
 val EAScrew = <ore:screwStainlessSteel>;
@@ -116,34 +116,34 @@ val MSScrew = <ore:screwSteelMagnetic>;
 
 
 // --- Stirling Generator
-recipes.remove(<enderio:blockStirlingGenerator>);
+recipes.remove(<EnderIO:blockStirlingGenerator>);
 
 // --- Combustion Generator
-recipes.remove(<enderio:blockCombustionGenerator>);
+recipes.remove(<EnderIO:blockCombustionGenerator>);
 
 // --- Zombi Generator
-recipes.remove(<enderio:blockZombieGenerator>);
+recipes.remove(<EnderIO:blockZombieGenerator>);
 
 // --- Photovoltaic Cell
-recipes.remove(<enderio:blockSolarPanel>);
+recipes.remove(<EnderIO:blockSolarPanel>);
 
 // --- Advanced Photovoltaic Cell
-recipes.remove(<enderio:blockSolarPanel:1>);
+recipes.remove(<EnderIO:blockSolarPanel:1>);
 
 // --- SAG Mill
-recipes.remove(<enderio:blockSagMill>);
+recipes.remove(<EnderIO:blockSagMill>);
 
 // --- Alloy Smelter
-recipes.remove(<enderio:blockAlloySmelter>);
+recipes.remove(<EnderIO:blockAlloySmelter>);
 
 // --- Capacitor Banks
-recipes.remove(<enderio:blockCapBank:*>);
+recipes.remove(<EnderIO:blockCapBank:*>);
 
 // --- Painting Machine
-recipes.remove(<enderio:blockPainter>);
+recipes.remove(<EnderIO:blockPainter>);
 
 // --- Crafter
-recipes.remove(<enderio:blockCrafter>);
+recipes.remove(<EnderIO:blockCrafter>);
 
 // --- Basic Capacitor
 recipes.remove(Capacitor);
@@ -158,52 +158,52 @@ recipes.remove(Capacitor3);
 recipes.remove(MCasing);
 
 // --- The Vat
-recipes.remove(<enderio:blockVat>);
+recipes.remove(<EnderIO:blockVat>);
 
 // --- Power Monitor
-recipes.remove(<enderio:blockPowerMonitor>);
+recipes.remove(<EnderIO:blockPowerMonitor>);
 
 // --- Farming Station
-recipes.remove(<enderio:blockFarmStation>);
+recipes.remove(<EnderIO:blockFarmStation>);
 
 // --- Wireless Charger
-recipes.remove(<enderio:blockWirelessCharger>);
+recipes.remove(<EnderIO:blockWirelessCharger>);
 
 // --- Fluid Tank
 recipes.remove(Tank);
 
 // --- Pressurized Fluid Tank
-recipes.remove(<enderio:blockTank:1>);
+recipes.remove(<EnderIO:blockTank:1>);
 
 // --- Reservoir
-recipes.remove(<enderio:blockReservoir>);
+recipes.remove(<EnderIO:blockReservoir>);
 
 // --- Vacuum Chest
-recipes.remove(<enderio:blockVacuumChest>);
+recipes.remove(<EnderIO:blockVacuumChest>);
 
 // --- Dimensional Tranceiver
-recipes.remove(<enderio:blockTransceiver>);
+recipes.remove(<EnderIO:blockTransceiver>);
 
 // --- Item Buffer
-recipes.remove(<enderio:blockBuffer>);
+recipes.remove(<EnderIO:blockBuffer>);
 
 // --- Power Buffer
-recipes.remove(<enderio:blockBuffer:1>);
+recipes.remove(<EnderIO:blockBuffer:1>);
 
 // --- Omni Buffer
-recipes.remove(<enderio:blockBuffer:2>);
+recipes.remove(<EnderIO:blockBuffer:2>);
 
 // --- Inventory Panel
-recipes.remove(<enderio:blockInventoryPanel>);
+recipes.remove(<EnderIO:blockInventoryPanel>);
 
 // --- Basic Gear
-recipes.remove(<enderio:itemMachinePart:1>);
+recipes.remove(<EnderIO:itemMachinePart:1>);
 
 // --- Conduit Binder
-furnace.remove(<enderio:itemMaterial:1>);
+furnace.remove(<EnderIO:itemMaterial:1>);
 
 // --- Binder Composite
-recipes.remove(<enderio:itemMaterial:2>);
+recipes.remove(<EnderIO:itemMaterial:2>);
 
 // --- Pulsating Crystal
 recipes.remove(PCrystal);
@@ -212,177 +212,177 @@ recipes.remove(PCrystal);
 recipes.remove(VCrystal);
 
 // --- Dark Steel Ball
-recipes.remove(<enderio:itemMaterial:7>);
+recipes.remove(<EnderIO:itemMaterial:7>);
 
 // --- Weather Crystal
 recipes.remove(WCrystal);
 
 // --- Ender IO
-//recipes.remove(<enderio:blockenderio>);
+recipes.remove(<EnderIO:blockEnderIo>);
 
 // --- Travel Anchor
-recipes.remove(<enderio:blockTravelAnchor>);
+recipes.remove(<EnderIO:blockTravelAnchor>);
 
 // --- Telepad Block
-recipes.remove(<enderio:blockTelePad>);
+recipes.remove(<EnderIO:blockTelePad>);
 
 // --- Slice and Splice
-recipes.remove(<enderio:blockSliceAndSplice>);
+recipes.remove(<EnderIO:blockSliceAndSplice>);
 
 // --- Soul Binder
-recipes.remove(<enderio:blockSoulBinder>);
+recipes.remove(<EnderIO:blockSoulBinder>);
 
 // --- Powered Spawner
-recipes.remove(<enderio:blockPoweredSpawner>);
+recipes.remove(<EnderIO:blockPoweredSpawner>);
 
 // --- Killer Joe
-recipes.remove(<enderio:blockKillerJoe>);
+recipes.remove(<EnderIO:blockKillerJoe>);
 
 // --- Attractor Obelisk
-recipes.remove(<enderio:blockAttractor>);
+recipes.remove(<EnderIO:blockAttractor>);
 
 // --- Aversion Obelisk
-recipes.remove(<enderio:blockSpawnGuard>);
+recipes.remove(<EnderIO:blockSpawnGuard>);
 
 // --- Experience Obelisk
-recipes.remove(<enderio:blockExperienceObelisk>);
+recipes.remove(<EnderIO:blockExperienceObelisk>);
 
 // --- Weather Obelisk
-recipes.remove(<enderio:blockWeatherObelisk>);
+recipes.remove(<EnderIO:blockWeatherObelisk>);
 
 // --- Enchanter
-recipes.remove(<enderio:blockEnchanter>);
+recipes.remove(<EnderIO:blockEnchanter>);
 
 // --- Dark Pressure Plate
-recipes.remove(<enderio:blockPaintedPressurePlate:8>);
+recipes.remove(<EnderIO:blockDarkSteelPressurePlate>);
 
 // --- Dark Pressure Plate Silent
-recipes.remove(<enderio:blockPaintedPressurePlate:9>);
+recipes.remove(<EnderIO:blockDarkSteelPressurePlate:1>);
 
 // --- Dark Steel Anvil
-recipes.remove(<enderio:blockDarkSteelAnvil>);
+recipes.remove(<EnderIO:blockDarkSteelAnvil>);
 
 // --- Dark Iron Bars
-recipes.remove(<enderio:blockDarkIronBars>);
+recipes.remove(<EnderIO:blockDarkIronBars>);
 
 // --- Dark Steel Ladder
-recipes.remove(<enderio:blockDarkSteelLadder>);
+recipes.remove(<EnderIO:blockDarkSteelLadder>);
 
 // --- Powered Light
-recipes.remove(<enderio:blockElectricLight>);
+recipes.remove(<EnderIO:blockElectricLight>);
 
 // --- Powered Light Inverted
-recipes.remove(<enderio:blockElectricLight:1>);
+recipes.remove(<EnderIO:blockElectricLight:1>);
 
 // --- Light
-recipes.remove(<enderio:blockElectricLight:2>);
+recipes.remove(<EnderIO:blockElectricLight:2>);
 
 // --- Light Inverted
-recipes.remove(<enderio:blockElectricLight:3>);
+recipes.remove(<EnderIO:blockElectricLight:3>);
 
 // --- Wireless Powered Light
-recipes.remove(<enderio:blockElectricLight:4>);
+recipes.remove(<EnderIO:blockElectricLight:4>);
 
 // --- Wireless Powered Light Inverted
-recipes.remove(<enderio:blockElectricLight:5>);
+recipes.remove(<EnderIO:blockElectricLight:5>);
 
 // --- Reinforced Obsidian
-recipes.remove(<enderio:blockReinforcedObsidian>);
+recipes.remove(<EnderIO:blockReinforcedObsidian>);
 
 // --- Coordinate Selector
-recipes.remove(<enderio:itemCoordSelector>);
+recipes.remove(<EnderIO:itemCoordSelector>);
 
 // --- Fused Quartz Frame
-recipes.remove(<enderio:blockFusedQuartz>);
+recipes.remove(<EnderIO:itemFusedQuartzFrame>);
 
 // --- Conduit Facade
-recipes.remove(<enderio:itemConduitFacade>);
+recipes.remove(<EnderIO:itemConduitFacade>);
 
 // --- Hardened Conduit Facade
-recipes.remove(<enderio:itemConduitFacade:1>);
+recipes.remove(<EnderIO:itemConduitFacade:1>);
 
 // --- Redstone Conduit
-recipes.remove(<enderio:itemRedstoneConduit>);
+recipes.remove(<EnderIO:itemRedstoneConduit>);
 
 // --- Insulated Conduit
-recipes.remove(<enderio:itemRedstoneConduit:2>);
+recipes.remove(<EnderIO:itemRedstoneConduit:2>);
 
 // --- Conduit Switch
-recipes.remove(<enderio:itemRedstoneConduit:1>);
+recipes.remove(<EnderIO:itemRedstoneConduit:1>);
 
 // --- Energy Conduit
-recipes.remove(<enderio:itemPowerConduit>);
+recipes.remove(<EnderIO:itemPowerConduit>);
 
 // --- Enhanced Energy Conduit
-recipes.remove(<enderio:itemPowerConduit:1>);
+recipes.remove(<EnderIO:itemPowerConduit:1>);
 
 // --- Ender Energy Conduit
-recipes.remove(<enderio:itemPowerConduit:2>);
+recipes.remove(<EnderIO:itemPowerConduit:2>);
 
 // --- Fluid Conduit
-recipes.remove(<enderio:itemLiquidConduit>);
+recipes.remove(<EnderIO:itemLiquidConduit>);
 
 // --- Pressurized Fluid Conduit
-recipes.remove(<enderio:itemLiquidConduit:1>);
+recipes.remove(<EnderIO:itemLiquidConduit:1>);
 
 // --- Ender Fluid Conduit
-recipes.remove(<enderio:itemLiquidConduit:2>);
+recipes.remove(<EnderIO:itemLiquidConduit:2>);
 
 // --- Item Conduit
-recipes.remove(<enderio:itemItemConduit>);
+recipes.remove(<EnderIO:itemItemConduit>);
 
 // --- Basic Item Filter
-recipes.remove(<enderio:itemBasicFilterUpgrade>);
+recipes.remove(<EnderIO:itemBasicFilterUpgrade>);
 
 // --- Advanced Item Filter
-recipes.remove(<enderio:itemBasicFilterUpgrade:1>);
+recipes.remove(<EnderIO:itemBasicFilterUpgrade:1>);
 
 // --- Existing Item Filter
-recipes.remove(<enderio:itemExistingItemFilter>);
+recipes.remove(<EnderIO:itemExistingItemFilter>);
 
 // --- Mod Item Filter
-recipes.remove(<enderio:itemModItemFilter>);
+recipes.remove(<EnderIO:itemModItemFilter>);
 
 // --- Chargeable Upgrade
-recipes.remove(<enderio:itemPowerItemFilter>);
+recipes.remove(<EnderIO:itemPowerItemFilter>);
 
 // --- Item Conduit Speed Upgrade
-recipes.remove(<enderio:itemExtractSpeedUpgrade>);
+recipes.remove(<EnderIO:itemExtractSpeedUpgrade>);
 
 // --- Item Conduit Speed Downgrade
-recipes.remove(<enderio:itemExtractSpeedUpgrade:1>);
+recipes.remove(<EnderIO:itemExtractSpeedUpgrade:1>);
 
 // --- Remote Awareness Upgrade
 recipes.remove(RAUpgrade);
 
 // --- Conduit Probe
-recipes.remove(<enderio:itemConduitProbe>);
+recipes.remove(<EnderIO:itemConduitProbe>);
 
 // --- Staff of Traveling
-recipes.remove(<enderio:itemTravelStaff:*>);
+recipes.remove(<EnderIO:itemTravelStaff:*>);
 
 // --- Experience Rod
-recipes.remove(<enderio:itemXpTransfer>);
+recipes.remove(<EnderIO:itemXpTransfer>);
 
 // --- Soul Vial
-recipes.remove(<enderio:itemSoulVessel>);
+recipes.remove(<EnderIO:itemSoulVessel>);
 
 // --- Glider Wing
-recipes.remove(<enderio:itemGliderWing>);
+recipes.remove(<EnderIO:itemGliderWing>);
 
 // --- Glider Wings
-recipes.remove(<enderio:itemGliderWing:1>);
+recipes.remove(<EnderIO:itemGliderWing:1>);
 
 // --- Electromagnet
-recipes.remove(<enderio:itemMagnet:*>);
+recipes.remove(<EnderIO:itemMagnet:*>);
 
 // --- Network Conduit
-recipes.remove(<enderio:itemOCConduit>);
+recipes.remove(<EnderIO:itemOCConduit>);
 
-recipes.remove(<enderio:itemYetaWrench>);
+recipes.remove(<EnderIO:itemYetaWrench>);
 
 // --- Dark Steel Ingot
-recipes.removeShaped(<enderio:itemAlloy:6>, [
+recipes.removeShaped(<EnderIO:itemAlloy:6>, [
 [<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>],
 [<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>],
 [<ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>, <ore:nuggetDarkSteel>]]);
@@ -395,92 +395,92 @@ recipes.removeShaped(<enderio:itemAlloy:6>, [
 
 
 // --- Stirling Generator
-recipes.addShaped(<enderio:blockStirlingGenerator>, [
+recipes.addShaped(<EnderIO:blockStirlingGenerator>, [
 [IronCasing, Circuit, IronCasing],
 [IronRotor, MCasing, IronRotor],
 [LvMotor, IronFurnace, LvMotor]]);
 
 // --- Combustion Generator
-recipes.addShaped(<enderio:blockCombustionGenerator>, [
+recipes.addShaped(<EnderIO:blockCombustionGenerator>, [
 [SteelCasing, GCircuit, SteelCasing],
 [SteelRotor, MCasing, SteelRotor],
 [MvMotor, Tank, MvMotor]]);
 
 // --- Zombi Generator
-recipes.addShaped(<enderio:blockZombieGenerator>, [
+recipes.addShaped(<EnderIO:blockZombieGenerator>, [
 [SteelCasing, GCircuit, SteelCasing],
 [FQuartz, MCasing, FQuartz],
 [LvMotor, ZElectrode, LvMotor]]);
 
 // --- Photovoltaic Cell
-recipes.addShaped(<enderio:blockSolarPanel>, [
+recipes.addShaped(<EnderIO:blockSolarPanel>, [
 [VAPlate, FQuartz, VAPlate],
 [EAPlate, <gregtech:gt.metaitem.01:32750>, EAPlate],
 [Capacitor, FQuartz, Capacitor]]);
 
 // --- Advanced Photovoltaic Cell
-recipes.addShaped(<enderio:blockSolarPanel:1>, [
+recipes.addShaped(<EnderIO:blockSolarPanel:1>, [
 [PIPlate, FQuartz, PIPlate],
-[VAPlate, <enderio:blockSolarPanel>, VAPlate],
+[VAPlate, <EnderIO:blockSolarPanel>, VAPlate],
 [Capacitor2, FQuartz, Capacitor2]]);
 
 // --- SAG Mill
-recipes.addShaped(<enderio:blockSagMill>, [
+recipes.addShaped(<EnderIO:blockSagMill>, [
 [SteelCasing, LvPiston, SteelCasing],
 [Circuit, MCasing, Circuit],
 [LvMotor, <gregtech:gt.metaitem.01:32721>, LvMotor]]);
 
 // --- Alloy Smelter
-recipes.addShaped(<enderio:blockAlloySmelter>, [
+recipes.addShaped(<EnderIO:blockAlloySmelter>, [
 [Circuit, IronFurnace, Circuit],
 [IronFurnace, MCasing, IronFurnace],
 [LvMotor, Cauldron, LvMotor]]);
 
 // --- Basic Capacitor Bank
-recipes.addShaped(<enderio:blockCapBank:1>.withTag({type: "SIMPLE", storedEnergyRF: 0}), [
+recipes.addShaped(<EnderIO:blockCapBank:1>.withTag({type: "SIMPLE", storedEnergyRF: 0}), [
 [Capacitor, Circuit, Capacitor],
 [RedstonePlate, MCasing, RedstonePlate],
 [Capacitor, <gregtech:gt.metaitem.01:32527>, Capacitor]]);
 
 // --- Capacitor Bank
-recipes.addShaped(<enderio:blockCapBank:2>.withTag({type: "ACTIVATED", storedEnergyRF: 0}), [
+recipes.addShaped(<EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEnergyRF: 0}), [
 [Capacitor2, GCircuit, Capacitor2],
 [EAPlate, MCasing, EAPlate],
 [Capacitor2, <gregtech:gt.metaitem.01:32537>, Capacitor2]]);
 
 // --- Capacitor Bank Upgrade From Basic Capacitor Bank
-recipes.addShaped(<enderio:blockCapBank:2>.withTag({type: "ACTIVATED", storedEnergyRF: 0}), [
+recipes.addShaped(<EnderIO:blockCapBank:2>.withTag({type: "ACTIVATED", storedEnergyRF: 0}), [
 [<gregtech:gt.metaitem.01:18315>, GCircuit	, <gregtech:gt.metaitem.01:18315>],
-[<enderio:blockCapBank:2>, EAPlate, <enderio:blockCapBank:2>]]);
+[<EnderIO:blockCapBank:2>, EAPlate, <EnderIO:blockCapBank:2>]]);
 
 // --- Vibrant Capacitor Bank
-recipes.addShaped(<enderio:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
+recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
 [Capacitor3, AdvCircuit, Capacitor3],
 [VCrystal, MCasing, VCrystal],
 [Capacitor3, <ore:plateSoularium>, Capacitor3]]);
 
 // --- Vibrant Capacitor Bank Upgrade From Capacitor Bank
-recipes.addShaped(<enderio:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
+recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
 [<gregtech:gt.metaitem.01:20315>, AdvCircuit, <gregtech:gt.metaitem.01:20315>],
-[<enderio:blockCapBank:2>, VCrystal, <enderio:blockCapBank:2>]]);
+[<EnderIO:blockCapBank:2>, VCrystal, <EnderIO:blockCapBank:2>]]);
 
 // --- Vibrant Capacitor Bank Upgrade From Basic Capacitor Bank
-recipes.addShaped(<enderio:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
+recipes.addShaped(<EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 0}), [
 [<gregtech:gt.metaitem.01:22315>, AdvCircuit, <gregtech:gt.metaitem.01:22315>],
-[<enderio:blockCapBank:1>, EAPlate, <enderio:blockCapBank:1>],
-[<enderio:blockCapBank:1>, VCrystal, <enderio:blockCapBank:1>]]);
+[<EnderIO:blockCapBank:1>, EAPlate, <EnderIO:blockCapBank:1>],
+[<EnderIO:blockCapBank:1>, VCrystal, <EnderIO:blockCapBank:1>]]);
 
 // --- Painting Machine
-recipes.addShaped(<enderio:blockPainter>, [
+recipes.addShaped(<EnderIO:blockPainter>, [
 [SteelCasing, SteelRotor, SteelCasing],
 [Circuit, MCasing, Circuit],
 [LvMotor, SteelRotor, LvMotor]]);
 
 // --- Crafter
-recipes.addShaped(<enderio:blockCrafter>, [
+recipes.addShaped(<EnderIO:blockCrafter>, [
 [SteelCasing, <ore:craftingTableWood>, SteelCasing],
 [Circuit, MCasing, Circuit],
-[SteelCasing, <enderio:itemFrankenSkull:1>, SteelCasing]]);
+[SteelCasing, <EnderIO:itemFrankenSkull:1>, SteelCasing]]);
 
 // --- Machinen Casing
 recipes.addShaped(MCasing, [
@@ -489,25 +489,25 @@ recipes.addShaped(MCasing, [
 [SteelCasing, ESteelPlate, SteelCasing]]);
 
 // --- The Vat
-recipes.addShaped(<enderio:blockVat>, [
+recipes.addShaped(<EnderIO:blockVat>, [
 [SteelCasing, Cauldron, SteelCasing],
 [Tank, MCasing, Tank],
 [LvMotor, IronFurnace, LvMotor]]);
 
 // --- Power Monitor
-recipes.addShaped(<enderio:blockPowerMonitor>, [
+recipes.addShaped(<EnderIO:blockPowerMonitor>, [
 [ESteelPlate, Display, ESteelPlate],
 [Circuit, MCasing, Circuit],
 [EConduit, ConduitProbe, EConduit]]);
 
 // --- Farming Station
-recipes.addShaped(<enderio:blockFarmStation>, [
-[PCrystal, <ic2:bronze_hoe>, PCrystal],
+recipes.addShaped(<EnderIO:blockFarmStation>, [
+[PCrystal, <IC2:itemToolHoe:*>, PCrystal],
 [GCircuit, MCasing, GCircuit],
 [LvMotor, ZLogic, LvMotor]]);
 
 // --- Wireless Charger
-recipes.addShaped(<enderio:blockWirelessCharger>, [
+recipes.addShaped(<EnderIO:blockWirelessCharger>, [
 [ESteelPlate, Capacitor3, ESteelPlate],
 [AdvCircuit, MCasing, AdvCircuit],
 [HvMotor, EResonator, HvMotor]]);
@@ -519,155 +519,155 @@ recipes.addShaped(Tank, [
 [SteelCasing, LvPump, SteelCasing]]);
 
 // --- Pressurized Fluid Tank
-recipes.addShaped(<enderio:blockTank:1>, [
+recipes.addShaped(<EnderIO:blockTank:1>, [
 [DarkSteelPlate, DarkSteelBars, DarkSteelPlate],
 [DarkSteelBars, IronTank, DarkSteelBars],
 [DarkSteelPlate, MvPump, DarkSteelPlate]]);
 
 // --- Reservoir
-recipes.addShaped(<enderio:blockReservoir> * 2, [
+recipes.addShaped(<EnderIO:blockReservoir> * 2, [
 [FQuartz, HvPump, FQuartz],
 [FQuartz, Cauldron, FQuartz],
 [FQuartz, HvPump, FQuartz]]);
 
 // --- Dimensional Tranceiver
-recipes.addShaped(<enderio:blockTransceiver>, [
+recipes.addShaped(<EnderIO:blockTransceiver>, [
 [Capacitor3, EnergyFlowCircuit, Capacitor3],
 [ECrystal, <ore:blockDarkSteel>, ECrystal],
 [FQuartz, SEnder, FQuartz]]);
 
 // --- Item Buffer
-recipes.addShaped(<enderio:blockBuffer>, [
+recipes.addShaped(<EnderIO:blockBuffer>, [
 [ESteelPlate, Chest, ESteelPlate],
 [LvConveyor, <ore:blockDarkSteel>, Circuit]]);
 
 // --- Power Buffer
-recipes.addShaped(<enderio:blockBuffer:1>, [
+recipes.addShaped(<EnderIO:blockBuffer:1>, [
 [ESteelPlate, EConduit, ESteelPlate],
 [<gregtech:gt.metaitem.01:32519>, <ore:blockDarkSteel>, Circuit]]);
 
 // --- Inventory Panel
-recipes.addShaped(<enderio:blockInventoryPanel>, [
+recipes.addShaped(<EnderIO:blockInventoryPanel>, [
 [DarkSteelPlate, RAUpgrade, DarkSteelPlate],
 [PCrystal, Display, PCrystal],
 [DarkSteelPlate, ZLogic, DarkSteelPlate]]);
 
 // --- Dark Steel Ball
-recipes.addShaped(<enderio:itemMaterial:7> * 4, [
+recipes.addShaped(<EnderIO:itemMaterial:7> * 4, [
 [DarkSteelScrew, DarkSteelPlate, DarkSteelScrew],
 [DarkSteelPlate, DarkSteelRing, DarkSteelPlate],
 [DarkSteelScrew, DarkSteelPlate, DarkSteelScrew]]);
 
 // --- Ender IO
-//recipes.addShaped(<enderio:blockenderio>, [
-//[ESteelPlate, FQuartz, ESteelPlate],
-//[FQuartz, EnderEyeLens, FQuartz],
-//[ESteelPlate, FQuartz, ESteelPlate]]);
+recipes.addShaped(<EnderIO:blockEnderIo>, [
+[ESteelPlate, FQuartz, ESteelPlate],
+[FQuartz, EnderEyeLens, FQuartz],
+[ESteelPlate, FQuartz, ESteelPlate]]);
 
 // --- Travel Anchor
-recipes.addShaped(<enderio:blockTravelAnchor>, [
+recipes.addShaped(<EnderIO:blockTravelAnchor>, [
 [ESteelPlate, PIPlate, ESteelPlate],
 [PCrystal, MCasing, PCrystal],
 [ESteelPlate, PIPlate, ESteelPlate]]);
 
 // --- Telepad Block
-recipes.addShaped(<enderio:blockTelePad>, [
+recipes.addShaped(<EnderIO:blockTelePad>, [
 [DarkSteelPlate, FQuartz, DarkSteelPlate],
-[Capacitor3, <enderio:blockTravelAnchor>, Capacitor3],
+[Capacitor3, <EnderIO:blockTravelAnchor>, Capacitor3],
 [LuVMotor, LuVFieldGen, LuVMotor]]);
 
 // --- Slice and Splice
-recipes.addShaped(<enderio:blockSliceAndSplice>, [
+recipes.addShaped(<EnderIO:blockSliceAndSplice>, [
 [SPlate, Shears, SPlate],
 [GCircuit, MCasing, GCircuit],
 [MvMotor, IronAxe, MvMotor]]);
 
 // --- Soul Binder
-recipes.addShaped(<enderio:blockSoulBinder>, [
+recipes.addShaped(<EnderIO:blockSoulBinder>, [
 [SPlate, EResonator, SPlate],
 [AdvCircuit, MCasing, AdvCircuit],
 [HvMotor, ZLogic, HvMotor]]);
 
 // --- Powered Spawner
-recipes.addShaped(<enderio:blockPoweredSpawner>, [
+recipes.addShaped(<EnderIO:blockPoweredSpawner>, [
 [DarkSteelPlate, Skull, DarkSteelPlate],
 [SPlate, MCasing, SPlate],
 [ECrystal, FZombi, ECrystal]]);
 
 // --- Killer Joe
-recipes.addShaped(<enderio:blockKillerJoe>, [
+recipes.addShaped(<EnderIO:blockKillerJoe>, [
 [AluCasing, GCircuit, AluCasing],
 [FQuartz, MCasing, FQuartz],
 [MvMotor, FZombi, MvMotor]]);
 
 // --- Attractor Obelisk
-recipes.addShaped(<enderio:blockAttractor>, [
+recipes.addShaped(<EnderIO:blockAttractor>, [
 [null, EntCrystal, null],
 [EAPlate, SPlate, EAPlate],
 [SPlate, MCasing, SPlate]]);
 
 // --- Aversion Obelisk
-recipes.addShaped(<enderio:blockSpawnGuard>, [
+recipes.addShaped(<EnderIO:blockSpawnGuard>, [
 [null, TEnderman, null],
 [EAPlate, SPlate, EAPlate],
 [SPlate, MCasing, SPlate]]);
 
 // --- Experience Obelisk
-recipes.addShaped(<enderio:blockExperienceObelisk>, [
+recipes.addShaped(<EnderIO:blockExperienceObelisk>, [
 [null, EXPRod, null],
 [EAPlate, SPlate, EAPlate],
 [SPlate, MCasing, SPlate]]);
 
 // --- Weather Obelisk
-recipes.addShaped(<enderio:blockWeatherObelisk>, [
+recipes.addShaped(<EnderIO:blockWeatherObelisk>, [
 [null, WCrystal, null],
 [Lava, SPlate, Water],
 [SPlate, CapacitorB2, SPlate]]);
 
 // --- Enchanter
-recipes.addShaped(<enderio:blockEnchanter>, [
+recipes.addShaped(<EnderIO:blockEnchanter>, [
 [PCrystal, Book, VCrystal],
 [null, DarkSteelPlate, null],
 [DarkSteelPlate, ETable, DarkSteelPlate]]);
 
 // --- Dark Iron Bars
-recipes.addShaped(<enderio:blockDarkIronBars> * 3, [
+recipes.addShaped(<EnderIO:blockDarkIronBars> * 3, [
 [null, Hammer, null],
 [<gregtech:gt.metaitem.01:23364>, <gregtech:gt.metaitem.01:23364>, <gregtech:gt.metaitem.01:23364>],
 [<gregtech:gt.metaitem.01:23364>, <gregtech:gt.metaitem.01:23364>, <gregtech:gt.metaitem.01:23364>]]);
 
 // --- Dark Steel Ladder
-recipes.addShaped(<enderio:blockDarkSteelLadder>, [
+recipes.addShaped(<EnderIO:blockDarkSteelLadder>, [
 [DarkIronBars, Screwdriver, DarkIronBars],
 [SteelWire, SteelScrew, SteelWire],
 [DarkIronBars, Wrench, DarkIronBars]]);
 
 // --- Powered Light
-recipes.addShaped(<enderio:blockElectricLight>, [
+recipes.addShaped(<EnderIO:blockElectricLight>, [
 [FQuartz, FQuartz, FQuartz],
 [SiliconPlate, LightBulp, SiliconPlate],
 [Circuit, Capacitor, Circuit]]);
 
 // --- Light
-recipes.addShaped(<enderio:blockElectricLight:2>, [
+recipes.addShaped(<EnderIO:blockElectricLight:2>, [
 [FQuartz, FQuartz, FQuartz],
-[SiliconPlate, <botania:blazeBlock>, SiliconPlate],
+[SiliconPlate, <Thaumcraft:blockMetalDevice:7>, SiliconPlate],
 [IronPlate, RedAlloyWire, IronPlate]]);
 
 // --- Reinforced Obsidian
-recipes.addShaped(<enderio:blockReinforcedObsidian>, [
+recipes.addShaped(<EnderIO:blockReinforcedObsidian>, [
 [DarkSteelPlate, DarkSteelBars, DarkSteelPlate],
 [DarkSteelBars, Obsidian, DarkSteelBars],
 [DarkSteelPlate, DarkSteelBars, DarkSteelPlate]]);
 
 // --- Coordinate Selector
-recipes.addShaped(<enderio:itemCoordSelector>.withTag({"bc:x": 0, default: 1 as byte, "bc:y": 0, "bc:z": 0}), [
+recipes.addShaped(<EnderIO:itemCoordSelector>.withTag({"bc:x": 0, default: 1 as byte, "bc:y": 0, "bc:z": 0}), [
 [ESteelPlate, EnderEye, ESteelPlate],
 [PIPlate, Compass, PIPlate],
 [ESteelPlate, EnderEye, ESteelPlate]]);
 
 // --- Item Conduit Speed Upgrade
-recipes.addShapeless(<enderio:itemExtractSpeedUpgrade>, [<enderio:itemExtractSpeedUpgrade:1>]);
+recipes.addShapeless(<EnderIO:itemExtractSpeedUpgrade>, [<EnderIO:itemExtractSpeedUpgrade:1>]);
 
 // --- Remote Awareness Upgrade
 recipes.addShaped(RAUpgrade, [
@@ -676,43 +676,43 @@ recipes.addShaped(RAUpgrade, [
 [SiliconPlate, ESteelPlate, SiliconPlate]]);
 
 // --- Yeta Wrench
-recipes.addShaped(<enderio:itemYetaWrench>, [
+recipes.addShaped(<EnderIO:itemYetaWrench>, [
 [ESteelIngot, Hammer, ESteelIngot],
 [ESteelIngot, ESteelGear, ESteelIngot],
 [null, ESteelIngot, null]]);
 
 // --- Conduit Probe
-recipes.addShaped(<enderio:itemConduitProbe>, [
+recipes.addShaped(<EnderIO:itemConduitProbe>, [
 [SiliconPlate, EConduit, SiliconPlate],
 [Circuit, Compartor, Circuit],
 [ESteelPlate, IRConduit, ESteelPlate]]);
 
 // --- Staff of Traveling
-recipes.addShaped(<enderio:itemTravelStaff:16>, [
+recipes.addShaped(<EnderIO:itemTravelStaff:16>, [
 [Screwdriver, AdvCircuit, ECrystal],
 [VAScrew, DarkSteelRod, AdvCircuit],
 [DarkSteelRod, VAScrew, Wrench]]);
 
 // --- Experience Rod
-recipes.addShaped(<enderio:itemXpTransfer>, [
+recipes.addShaped(<EnderIO:itemXpTransfer>, [
 [Screwdriver, AdvCircuit, PCrystal],
 [EAScrew, SoulariumRod, AdvCircuit],
 [SoulariumRod, EAScrew, Wrench]]);
 
 // --- Glider Wing
-recipes.addShaped(<enderio:itemGliderWing>, [
+recipes.addShaped(<EnderIO:itemGliderWing>, [
 [Hammer, DarkSteelRod, Leather],
 [DarkSteelRod, TLeather, Leather],
 [Leather, Leather, Leather]]);
 
 // --- Glider Wings
-recipes.addShaped(<enderio:itemGliderWing:1>, [
+recipes.addShaped(<EnderIO:itemGliderWing:1>, [
 [DarkSteelScrew, DarkSteelRod, DarkSteelScrew],
-[<enderio:itemGliderWing>, DarkSteelPlate, <enderio:itemGliderWing>],
+[<EnderIO:itemGliderWing>, DarkSteelPlate, <EnderIO:itemGliderWing>],
 [Wrench, DarkSteelRod, Screwdriver]]);
 
 // --- Electromagnet
-recipes.addShaped(<enderio:itemMagnet:16>, [
+recipes.addShaped(<EnderIO:itemMagnet:16>, [
 [ESteelPlate, CIPlate, CIPlate],
 [Wrench, MSScrew, VCrystal],
 [ESteelPlate, CIPlate, CIPlate]]);
@@ -732,115 +732,115 @@ Assembler.addRecipe(Capacitor2, Capacitor * 2, <gregtech:gt.metaitem.01:2535>,  
 Assembler.addRecipe(Capacitor3, Capacitor2 * 2, <minecraft:glowstone_dust> * 4,  <liquid:molten.vibrantalloy> * 864, 200, 400);
 
 // --- Vacuum Chest
-Assembler.addRecipe(<enderio:blockVacuumChest>, <gregtech:gt.blockmachines:9231>, <natura:blaze_hopper>, 200, 64);
+Assembler.addRecipe(<EnderIO:blockVacuumChest>, <gregtech:gt.blockmachines:9231>, <ExtraUtilities:enderCollector>, 200, 64);
 
 // --- Omni Buffer
-Assembler.addRecipe(<enderio:blockBuffer:2>, <enderio:blockBuffer>, <enderio:blockBuffer:1>, 400, 120);
+Assembler.addRecipe(<EnderIO:blockBuffer:2>, <EnderIO:blockBuffer>, <EnderIO:blockBuffer:1>, 400, 120);
 
 // --- Pulsating Crystal
-Assembler.addRecipe(<enderio:itemMaterial:5>, <minecraft:diamond>, <gregtech:gt.metaitem.01:9204> * 8, 600, 120);
+Assembler.addRecipe(<EnderIO:itemMaterial:5>, <minecraft:diamond>, <ore:nuggetPulsatingIron> * 8, 600, 120);
 
 // --- Vibrant Crystal
-Assembler.addRecipe(<enderio:itemMaterial:6>, <minecraft:emerald>, <gregtech:gt.metaitem.01:9204> * 8, 600, 120);
+Assembler.addRecipe(<EnderIO:itemMaterial:6>, <minecraft:emerald>, <ore:nuggetVibrantAlloy> * 8, 600, 120);
 
 // --- Dark Steel Ball
-Assembler.addRecipe(<enderio:itemMaterial:7> * 4, <gregtech:gt.metaitem.01:17364> * 4, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
+Assembler.addRecipe(<EnderIO:itemMaterial:7> * 4, <ore:plateDarkSteel> * 4, <gregtech:gt.integrated_circuit:4> * 0, 200, 64);
 
 // --- Weather Crystal
-Assembler.addRecipe(WCrystal, <tconstruct:ingots:2>, <gregtech:gt.metaitem.01:9321> * 8, 200, 256);
+Assembler.addRecipe(WCrystal, <TConstruct:materials:41>, <gregtech:gt.metaitem.01:9321> * 8, 200, 256);
 
 // --- Dark Pressure Plate
-Assembler.addRecipe(<enderio:blockPaintedPressurePlate:8>, <minecraft:heavy_weighted_pressure_plate>, <gregtech:gt.metaitem.01:17364> * 2, 200, 64);
+Assembler.addRecipe(<EnderIO:blockDarkSteelPressurePlate>, <minecraft:heavy_weighted_pressure_plate>, <ore:plateDarkSteel> * 2, 200, 64);
 
 // --- Dark Pressure Plate Silent
-Assembler.addRecipe(<enderio:blockPaintedPressurePlate:9>, <enderio:blockPaintedPressurePlate:8>, <ic2:sheet:1>, 200, 64);
+Assembler.addRecipe(<EnderIO:blockDarkSteelPressurePlate:1>, <EnderIO:blockDarkSteelPressurePlate>, <IC2:blockRubber>, 200, 64);
 
 // --- Dark Steel Ladder
-Assembler.addRecipe(<enderio:blockDarkSteelLadder> * 2, <enderio:blockDarkIronBars>, <gregtech:gt.integrated_circuit:2> * 0, 100, 96);
+Assembler.addRecipe(<EnderIO:blockDarkSteelLadder> * 2, <EnderIO:blockDarkIronBars>, <gregtech:gt.integrated_circuit:2> * 0, 100, 96);
 
 // --- Dark Iron Bars
-Assembler.addRecipe(<enderio:blockDarkIronBars> * 4, <gregtech:gt.metaitem.01:23364> * 3, <gregtech:gt.integrated_circuit:3> * 0, 600, 64);
+Assembler.addRecipe(<EnderIO:blockDarkIronBars> * 4, <gregtech:gt.metaitem.01:23364> * 3, <gregtech:gt.integrated_circuit:3> * 0, 600, 64);
 
 // --- Powered Light Inverted
-Assembler.addRecipe(<enderio:blockElectricLight:1>, <enderio:blockElectricLight>, <minecraft:redstone_torch>, 200, 64);
+Assembler.addRecipe(<EnderIO:blockElectricLight:1>, <EnderIO:blockElectricLight>, <minecraft:redstone_torch>, 200, 64);
 
 // --- Light Inverted
-Assembler.addRecipe(<enderio:blockElectricLight:3>, <enderio:blockElectricLight:2>, <minecraft:redstone_torch>, 100, 30);
+Assembler.addRecipe(<EnderIO:blockElectricLight:3>, <EnderIO:blockElectricLight:2>, <minecraft:redstone_torch>, 100, 30);
 
 // --- Wireless Powered Light
-Assembler.addRecipe(<enderio:blockElectricLight:4>, <enderio:blockElectricLight>, EResonator, 200, 256);
+Assembler.addRecipe(<EnderIO:blockElectricLight:4>, <EnderIO:blockElectricLight>, EResonator, 200, 256);
 
 // --- Wireless Powered Light Inverted
-Assembler.addRecipe(<enderio:blockElectricLight:5>, <enderio:blockElectricLight:4>, <minecraft:redstone_torch>, 200, 256);
+Assembler.addRecipe(<EnderIO:blockElectricLight:5>, <EnderIO:blockElectricLight:4>, <minecraft:redstone_torch>, 200, 256);
 
 // --- Fused Quartz Frame
-Assembler.addRecipe(<enderio:blockFusedQuartz>, <gregtech:gt.blockmachines:4905>, <enderio:itemMaterial:1> * 4, 100, 16);
+Assembler.addRecipe(<EnderIO:itemFusedQuartzFrame>, <gregtech:gt.blockmachines:4905>, <EnderIO:itemMaterial:1> * 4, 100, 16);
 
 // --- Conduit Facade
-Assembler.addRecipe(<enderio:itemConduitFacade>, <enderio:itemMaterial:1> * 8, <gregtech:gt.integrated_circuit:8> * 0, 100, 30);
+Assembler.addRecipe(<EnderIO:itemConduitFacade>, <EnderIO:itemMaterial:1> * 8, <gregtech:gt.integrated_circuit:8> * 0, 100, 30);
 
 // --- Insulated Conduit
-Assembler.addRecipe(<enderio:itemRedstoneConduit:2>, <enderio:itemRedstoneConduit>, <enderio:itemMaterial:1> * 2, 100, 64);
+Assembler.addRecipe(<EnderIO:itemRedstoneConduit:2>, <EnderIO:itemRedstoneConduit>, <EnderIO:itemMaterial:1> * 2, 100, 64);
 
 // --- Conduit Switch
-Assembler.addRecipe(<enderio:itemRedstoneConduit:1>, <enderio:itemRedstoneConduit:2>, <minecraft:lever>, 100, 64);
+Assembler.addRecipe(<EnderIO:itemRedstoneConduit:1>, <EnderIO:itemRedstoneConduit:2>, <minecraft:lever>, 100, 64);
 
 // --- Redstone Conduit
-Assembler.addRecipe(<enderio:itemRedstoneConduit>, <gregtech:gt.blockmachines:2000>, <gregtech:gt.metaitem.01:17308>, 100, 64);
+Assembler.addRecipe(<EnderIO:itemRedstoneConduit>, <gregtech:gt.blockmachines:2000>, <ore:plateRedAlloy>, 100, 64);
 
 // --- Insulated Redstone Conduit
-Assembler.addRecipe(<enderio:itemRedstoneConduit:2>, <gregtech:gt.blockmachines:2000>, <gregtech:gt.metaitem.01:17308>, <liquid:molten.plastic> * 144, 100, 64);
+Assembler.addRecipe(<EnderIO:itemRedstoneConduit:2>, <gregtech:gt.blockmachines:2000>, <ore:plateRedAlloy>, <liquid:molten.plastic> * 144, 100, 64);
 
 // --- Energy Conduit
-Assembler.addRecipe(<enderio:itemPowerConduit>, <gregtech:gt.blockmachines:1420>, <gregtech:gt.metaitem.01:17200>, <liquid:molten.plastic> * 144, 100, 120);
+Assembler.addRecipe(<EnderIO:itemPowerConduit>, <gregtech:gt.blockmachines:1420>, <ore:plateConductiveIron>, <liquid:molten.plastic> * 144, 100, 120);
 
 // --- Enhanced Energy Conduit
-Assembler.addRecipe(<enderio:itemPowerConduit:1>, <gregtech:gt.blockmachines:1580>, <gregtech:gt.metaitem.01:17202>, <liquid:molten.plastic> * 144, 100, 256);
+Assembler.addRecipe(<EnderIO:itemPowerConduit:1>, <gregtech:gt.blockmachines:1580>, <ore:plateEnergeticAlloy>, <liquid:molten.plastic> * 144, 100, 256);
 
 // --- Ender Energy Conduit
-Assembler.addRecipe(<enderio:itemPowerConduit:2>, <gregtech:gt.blockmachines:1620>,<gregtech:gt.metaitem.01:17203>, <liquid:molten.plastic> * 144, 100, 480);
+Assembler.addRecipe(<EnderIO:itemPowerConduit:2>, <gregtech:gt.blockmachines:1620>, <ore:plateVibrantAlloy>, <liquid:molten.plastic> * 144, 100, 480);
 
 // --- Fluid Conduit
-Assembler.addRecipe(<enderio:itemLiquidConduit>, <gregtech:gt.blockmachines:5112>, <gregtech:gt.metaitem.01:17201>, <liquid:molten.plastic> * 144, 100, 120);
+Assembler.addRecipe(<EnderIO:itemLiquidConduit>, <gregtech:gt.blockmachines:5112>, <ore:plateElectricalSteel>, <liquid:molten.plastic> * 144, 100, 120);
 
 // --- Pressurized Fluid Conduit
-Assembler.addRecipe(<enderio:itemLiquidConduit:1>, <gregtech:gt.blockmachines:5132>, <gregtech:gt.metaitem.01:17364>, <liquid:molten.plastic> * 144, 100, 256);
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:1>, <gregtech:gt.blockmachines:5132>, <ore:plateDarkSteel>, <liquid:molten.plastic> * 144, 100, 256);
 
 // --- Ender Fluid Conduit
-Assembler.addRecipe(<enderio:itemLiquidConduit:2>, <gregtech:gt.blockmachines:5142>,<gregtech:gt.metaitem.01:17203>, <liquid:molten.plastic> * 144, 100, 480);
+Assembler.addRecipe(<EnderIO:itemLiquidConduit:2>, <gregtech:gt.blockmachines:5142>, <ore:plateVibrantAlloy>, <liquid:molten.plastic> * 144, 100, 480);
 
 // --- Item Conduit
-Assembler.addRecipe(<enderio:itemItemConduit>, <gregtech:gt.blockmachines:5612>, <gregtech:gt.metaitem.01:17204>, <liquid:molten.plastic> * 144, 100, 256);
+Assembler.addRecipe(<EnderIO:itemItemConduit>, <ore:pipeMediumElectrum>, <ore:platePulsatingIron>, <liquid:molten.plastic> * 144, 100, 256);
 
 // --- Network Conduit
-Assembler.addRecipe(<enderio:itemOCConduit>, <appliedenergistics2:part:16>, <gregtech:gt.metaitem.01:17308>, <liquid:molten.plastic> * 144, 100, 480);
+Assembler.addRecipe(<EnderIO:itemOCConduit>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateRedAlloy>, <liquid:molten.plastic> * 144, 100, 480);
 
 // --- Basic Item Filter
-Assembler.addRecipe(<enderio:itemBasicFilterUpgrade>, <ic2:crafting:14> * 2, <minecraft:iron_bars>, 300, 30);
+Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade>, <IC2:itemPartCarbonMesh> * 2, <minecraft:iron_bars>, 300, 30);
 
 // --- Advanced Item Filter
-Assembler.addRecipe(<enderio:itemBasicFilterUpgrade:1>, <enderio:itemBasicFilterUpgrade>, ZLogic, 300, 64);
+Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade:1>, <EnderIO:itemBasicFilterUpgrade>, ZLogic, 300, 64);
 
 // --- Existing Item Filter
-Assembler.addRecipe(<enderio:itemExistingItemFilter>, <enderio:itemBasicFilterUpgrade:1>, Compartor, 300, 120);
+Assembler.addRecipe(<EnderIO:itemExistingItemFilter>, <EnderIO:itemBasicFilterUpgrade:1>, Compartor, 300, 120);
 
 // --- Mod Item Filter
-Assembler.addRecipe(<enderio:itemModItemFilter>, <enderio:itemBasicFilterUpgrade>, <enderio:itemYetaWrench>, 300, 64);
+Assembler.addRecipe(<EnderIO:itemModItemFilter>, <EnderIO:itemBasicFilterUpgrade>, <EnderIO:itemYetaWrench>, 300, 64);
 
 // --- Chargeable Upgrade
-Assembler.addRecipe(<enderio:itemPowerItemFilter>, <enderio:itemBasicFilterUpgrade>, <enderio:itemConduitProbe>, 300, 64);
+Assembler.addRecipe(<EnderIO:itemPowerItemFilter>, <EnderIO:itemBasicFilterUpgrade>, <EnderIO:itemConduitProbe>, 300, 64);
 
 // --- Item Conduit Speed Upgrade
-Assembler.addRecipe(<enderio:itemExtractSpeedUpgrade>, <enderio:itemBasicFilterUpgrade>, <gregtech:gt.metaitem.01:32640>, 300, 64);
+Assembler.addRecipe(<EnderIO:itemExtractSpeedUpgrade>, <EnderIO:itemBasicFilterUpgrade>, <gregtech:gt.metaitem.01:32640>, 300, 64);
 
 // --- Item Conduit Speed Downgrade
-Assembler.addRecipe(<enderio:itemExtractSpeedUpgrade:1>, <enderio:itemExtractSpeedUpgrade>, <gregtech:gt.integrated_circuit:1> * 1, <liquid:molten.rubber> * 144, 300, 64);
+Assembler.addRecipe(<EnderIO:itemExtractSpeedUpgrade:1>, <EnderIO:itemExtractSpeedUpgrade>, <gregtech:gt.integrated_circuit:1> * 1, <liquid:molten.rubber> * 144, 300, 64);
 
 // --- Soul Vial
-Assembler.addRecipe(<enderio:itemSoulVessel>, <enderio:blockFusedQuartz> * 3, <enderio:itemAlloy:7> * 1, 200, 48);
+Assembler.addRecipe(<EnderIO:itemSoulVessel>, <EnderIO:blockFusedQuartz> * 3, <EnderIO:itemAlloy:7> * 1, 200, 48);
 
 // --- Dark Clear Glass
-Assembler.addRecipe(<enderio:blockFusedQuartz:5>, <minecraft:dye>, <enderio:blockFusedQuartz:1>, 100, 48);
+Assembler.addRecipe(<EnderIO:blockFusedQuartz:5>, <minecraft:dye>, <EnderIO:blockFusedQuartz:1>, 100, 48);
 
 
 
@@ -850,10 +850,10 @@ Assembler.addRecipe(<enderio:blockFusedQuartz:5>, <minecraft:dye>, <enderio:bloc
 
 
 // --- Hardened Conduit Facade
-ChemicalBath.addRecipe([<enderio:itemConduitFacade:1>], <enderio:itemConduitFacade>, <liquid:obsidian> * 576, [10000], 200, 2);
+ChemicalBath.addRecipe([<EnderIO:itemConduitFacade:1>], <EnderIO:itemConduitFacade>, <liquid:obsidian.molten> * 576, [10000], 200, 2);
 
 // --- Conduit Binder
-ChemicalBath.addRecipe([<enderio:itemMaterial:1> * 2, <enderio:itemMaterial:1> * 2, <enderio:itemMaterial:1>], <enderio:itemMaterial:2>, <liquid:molten.rubber> * 144, [10000, 9000, 5000], 200, 2);
+ChemicalBath.addRecipe([<EnderIO:itemMaterial:1> * 2, <EnderIO:itemMaterial:1> * 2, <EnderIO:itemMaterial:1>], <EnderIO:itemMaterial:2>, <liquid:molten.rubber> * 144, [10000, 9000, 5000], 200, 2);
 
 
 
@@ -863,12 +863,19 @@ ChemicalBath.addRecipe([<enderio:itemMaterial:1> * 2, <enderio:itemMaterial:1> *
 
 
 // --- Dark Steel Anvil
-FluidSolidifier.addRecipe(<enderio:blockDarkSteelAnvil>, <gregtech:gt.metaitem.01:32314> * 0, <liquid:molten.darksteel> * 4464, 900, 120);
+FluidSolidifier.addRecipe(<EnderIO:blockDarkSteelAnvil>, <gregtech:gt.metaitem.01:32314> * 0, <liquid:molten.darksteel> * 4464, 900, 120);
 
 
 
 // --- Macerating Recipes ---
 
 
+
 // --- Binder Composite
-Macerator.addRecipe(<enderio:itemMaterial:2> * 9, <ic2:crafting:25>);
+Macerator.addRecipe(<EnderIO:itemMaterial:2> * 9, <IC2:itemPartCFPowder>);
+
+recipes.addShapeless(<gregtech:gt.metaitem.01:11308>, [<EnderIO:itemAlloy:3>]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:11019>, [<TConstruct:materials:11>]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:11057>, [<TConstruct:materials:10>]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:11300>, [<TConstruct:materials:13>]);
+recipes.addShapeless(<gregtech:gt.metaitem.01:11035>, [<TConstruct:materials:9>]);

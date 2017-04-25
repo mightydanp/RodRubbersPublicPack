@@ -1,3 +1,4 @@
+import mods.nei.NEI;
 import mods.gregtech.Assembler;
 import minetweaker.item.IItemStack;
 
@@ -13,20 +14,20 @@ var silverScrew   = <gregtech:gt.metaitem.01:27054>;
 var diamondPlate  = <gregtech:gt.metaitem.01:17500>;
 var diamondScrew  = <gregtech:gt.metaitem.01:27500>;
 var glassPlate    = <gregtech:gt.metaitem.01:17890>;
-var obsidianPlate = <ic2:plate:6>;
+var obsidianPlate = <IC2:itemPlates:7>;
 
 var screwDriver   = <ore:craftingToolScrewdriver>;
 var hammer        = <ore:craftingToolHardHammer>;
 
 var chests = [
-  <ironchest:BlockIronChest:0>, <ironchest:BlockIronChest:1>,
-  <ironchest:BlockIronChest:2>, <ironchest:BlockIronChest:3>,
-  <ironchest:BlockIronChest:4>, <ironchest:BlockIronChest:5>,
-  <ironchest:BlockIronChest:6>] as IItemStack[];
+  <IronChest:BlockIronChest:0>, <IronChest:BlockIronChest:1>,
+  <IronChest:BlockIronChest:2>, <IronChest:BlockIronChest:3>,
+  <IronChest:BlockIronChest:4>, <IronChest:BlockIronChest:5>,
+  <IronChest:BlockIronChest:6>] as IItemStack[];
 
 var middleChests = [
-  <minecraft:chest>, <ironchest:BlockIronChest:0>, <ironchest:BlockIronChest:1>,
-  <minecraft:chest>, <ironchest:BlockIronChest:3>, <ironchest:BlockIronChest:2>, <ironchest:BlockIronChest:2>
+  <minecraft:chest>, <IronChest:BlockIronChest:0>, <IronChest:BlockIronChest:1>,
+  <minecraft:chest>, <IronChest:BlockIronChest:3>, <IronChest:BlockIronChest:2>, <IronChest:BlockIronChest:2>
   ] as IItemStack[];
   
 var screws = [ironScrew, goldScrew, diamondScrew, copperScrew, silverScrew , diamondScrew, diamondScrew] as IItemStack[];
@@ -47,11 +48,11 @@ for i, chest in chests{
 }
 
 var chestUpgrades = [
-  <ironchest:woodIronUpgrade>, <ironchest:ironGoldUpgrade>,
-  <ironchest:goldDiamondUpgrade>, <ironchest:diamondCrystalUpgrade>,
-  <ironchest:diamondObsidianUpgrade>, <ironchest:woodCopperUpgrade>,
-  <ironchest:copperSilverUpgrade>, <ironchest:copperIronUpgrade>,
-  <ironchest:silverGoldUpgrade>] as IItemStack[];
+  <IronChest:woodIronUpgrade>, <IronChest:ironGoldUpgrade>,
+  <IronChest:goldDiamondUpgrade>, <IronChest:diamondCrystalUpgrade>,
+  <IronChest:diamondObsidianUpgrade>, <IronChest:woodCopperUpgrade>,
+  <IronChest:copperSilverUpgrade>, <IronChest:copperIronUpgrade>,
+  <IronChest:silverGoldUpgrade>] as IItemStack[];
   
 var middlePlateUpgrades = [woodPlate,ironPlate, goldPlate, diamondPlate, diamondPlate, woodPlate, copperPlate, copperPlate, silverPlate] as IItemStack[];
 

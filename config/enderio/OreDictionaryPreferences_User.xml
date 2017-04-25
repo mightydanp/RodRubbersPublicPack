@@ -39,10 +39,6 @@ Entries in this file take precedence over the values in the core file
     <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="2020" />
   </preference>
   
-  <preference oreDictionary="ingotDarkSteel" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11364" />
-  </preference>
-  
   <preference oreDictionary="ingotRedstoneAlloy" >
     <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11308" />
   </preference>
@@ -54,47 +50,5 @@ Entries in this file take precedence over the values in the core file
   <preference oreDictionary="ingotCobalt" >
     <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11033" />
   </preference>
-
-    <preference oreDictionary="ingotConductiveIron" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11200" />
-  </preference>
-  
-  <preference oreDictionary="ingotElectricalSteel" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11201" />
-  </preference>
-  
-  <preference oreDictionary="ingotEnergeticAlloy" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11202" />
-  </preference>
-  
-  <preference oreDictionary="ingotVibrantAlloy" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11203" />
-  </preference>
-  
-  <preference oreDictionary="ingotPulsatingIron" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="11201" />
-  </preference>
-  
-  <preference oreDictionary="nuggetConductiveIron" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="9200" />
-  </preference>
-  
-  <preference oreDictionary="nuggetElectricalSteel" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="9201" />
-  </preference>
-  
-  <preference oreDictionary="nuggetEnergrticAlloy" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="9202" />
-  </preference>
-  
-  <preference oreDictionary="nuggetVibrantAlloy" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="9203" />
-  </preference>
-  
-  <preference oreDictionary="nuggetPulsatingIron" >
-    <itemStack modID="gregtech" itemName="gt.metaitem.01" itemMeta="9201" />
-  </preference>
-  
-  
   
 </OreDictionaryPreferences>

@@ -1,35 +1,35 @@
 shaped=
-    oredictionary:ingotGold oredictionary:ingotIron _,
-    oredictionary:dustRedstone ae2:material.CalcProcessor oredictionary:ingotIron,
-    oredictionary:ingotGold oredictionary:ingotIron _
-    -> 2 ae2:material.BasicCard
+    mc:gold_ingot mc:iron_ingot _,
+    mc:redstone ae2:ItemMaterial.CalcProcessor mc:iron_ingot,
+    mc:gold_ingot mc:iron_ingot _
+    -> 2 ae2:ItemMaterial.BasicCard
     
 shaped=
-    oredictionary:gemDiamond oredictionary:ingotIron _,
-    oredictionary:dustRedstone ae2:material.CalcProcessor oredictionary:ingotIron,
-    oredictionary:gemDiamond oredictionary:ingotIron _
-    -> 2 ae2:material.AdvCard
+    oredictionary:gemDiamond mc:iron_ingot _,
+    mc:redstone ae2:ItemMaterial.CalcProcessor mc:iron_ingot,
+    oredictionary:gemDiamond mc:iron_ingot _
+    -> 2 ae2:ItemMaterial.AdvCard
 
 shapeless=
-    ae2:material.BasicCard certusCrystal
-    -> ae2:material.CardCapacity
+    ae2:ItemMaterial.BasicCard certusCrystal
+    -> ae2:ItemMaterial.CardCapacity
 
 shapeless=
-    ae2:material.BasicCard oredictionary:dustRedstone_torch
-    -> ae2:material.CardRedstone
+    ae2:ItemMaterial.BasicCard mc:redstone_torch
+    -> ae2:ItemMaterial.CardRedstone
 
 shapeless=
-    ae2:material.AdvCard wool
-    -> ae2:material.CardFuzzy
+    ae2:ItemMaterial.AdvCard wool
+    -> ae2:ItemMaterial.CardFuzzy
 
 shapeless=
-    ae2:material.AdvCard oredictionary:dustRedstone_torch
-    -> ae2:material.CardInverter
+    ae2:ItemMaterial.AdvCard mc:redstone_torch
+    -> ae2:ItemMaterial.CardInverter
 
 shapeless=
-    ae2:material.AdvCard fluixCrystal
-    -> ae2:material.CardSpeed
+    ae2:ItemMaterial.AdvCard fluixCrystal
+    -> ae2:ItemMaterial.CardSpeed
     
 shapeless=
-    ae2:material.BasicCard mc:crafting_table
-    -> ae2:material.CardCrafting
+    ae2:ItemMaterial.BasicCard mc:crafting_table
+    -> ae2:ItemMaterial.CardCrafting
