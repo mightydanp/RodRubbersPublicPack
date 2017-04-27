@@ -1,6 +1,5 @@
-# Witching Gadgets Tweaks
- 
 import mods.nei.NEI;
+import mods.rodrcore.Campfire;
  
  
 // Foreign Items
@@ -15,9 +14,15 @@ val ingotIron = <ore:ingotIron>;
 val stickIron = <ore:stickIron>;
 val cobbleStone = <minecraft:cobblestone>;
 val flint = <minecraft:flint>;
+val grout = <TConstruct:CraftedSoil:1>;
+val slimeSoil = <TConstruct:CraftedSoil:6>;
+val searedBrick = <TConstruct:materials:2>;
+val searedNeatherBrick = <TConstruct:materials:37>;
+val unfiredClayBucket = <IguanaTweaksTConstruct:clayBucketUnfired>;
+val firedClayBucket = <IguanaTweaksTConstruct:clayBucketFired>;
 
  
-// This Mod Items
+// Mod Items
  
 val campFire = <rodrcore:tile.camp_fire_idle>;
 val furnaceForm = <rodrcore:tile.form_furnace>;
@@ -86,3 +91,12 @@ recipes.addShaped(smallCrucible,
 recipes.addShaped(flintandStone, 
     [[rock,null],
     [null,flint]]);
+	
+//grout
+Campfire.addSmallCrucibleRecipe(searedBrick, grout);
+
+//slimeSoil
+Campfire.addSmallCrucibleRecipe(searedNeatherBrick, slimeSoil);
+
+//clayBucket
+Campfire.addSmallCrucibleRecipe(firedClayBucket, unfiredClayBucket);
