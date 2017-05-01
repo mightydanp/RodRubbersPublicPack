@@ -21,6 +21,8 @@ val searedNeatherBrick = <TConstruct:materials:37>;
 val unfiredClayBucket = <IguanaTweaksTConstruct:clayBucketUnfired>;
 val firedClayBucket = <IguanaTweaksTConstruct:clayBucketFired>;
 val stone = <minecraft:stone>;
+val sand = <ore:sand>;
+val glass = <minecraft:glass>;
  
 // Mod Items
  
@@ -103,3 +105,5 @@ Campfire.addSmallCrucibleRecipe(firedClayBucket, unfiredClayBucket);
 
 //stone
 Campfire.addSmallCrucibleRecipe(stone, cobbleStone);
+//glass
+Campfire.addSmallCrucibleRecipe(glass, sand);

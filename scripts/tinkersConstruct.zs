@@ -21,6 +21,12 @@ val Sand = <ore:sand>;
 val Chest = <ore:chestWood>;
 val Clay = <minecraft:clay_ball>;
 val Claydust = <ore:dustClay>;
+val glass = <minecraft:glass>;
+val searedBricks = <TConstruct:Smeltery:2>;
+val searedBrick = <TConstruct:materials:2>;
+val searedNeatherBricks = <TConstruct:SmelteryNether:2>;
+val searedNeatherBrick = <TConstruct:materials:37>;
+val chisel = <TConstruct:chisel>;
  
 val HHammer = <ore:craftingToolHardHammer>;
 val File = <ore:craftingToolFile>;
@@ -221,9 +227,9 @@ recipes.addShaped(<TConstruct:heartCanister:6>, [
 
 recipes.remove(<TConstruct:CraftedSoil:1>);
 recipes.addShaped(<TConstruct:CraftedSoil:1> * 4, [
-    [<ore:sand>, <ore:dustStone>, <ore:sand>], 
+    [Sand, <ore:dustStone>, Sand], 
 	[<ore:dustStone>, <minecraft:clay>, <ore:dustStone>], 
-	[<ore:sand>, <ore:listAllwater>, <ore:sand>]
+	[Sand, <ore:listAllwater>, Sand]
 ]);
 
 // Grout
@@ -252,45 +258,45 @@ recipes.addShapeless(<TConstruct:CraftedSoil:6>, [<minecraft:nether_wart>, <Natu
 recipes.removeShaped(<TConstruct:LavaTank>);
 recipes.removeShaped(<TConstruct:LavaTankNether>);
 recipes.addShaped(<TConstruct:LavaTank>, [
-[<TConstruct:Smeltery:2>, <TConstruct:materials:2>, <TConstruct:Smeltery:2>],
-[<TConstruct:materials:2>, null, <TConstruct:materials:2>],
-[<TConstruct:Smeltery:2>, <TConstruct:materials:2>, <TConstruct:Smeltery:2>]]);
+[searedBricks, searedBrick, searedBricks],
+[searedBrick, null, searedBrick],
+[searedBricks, searedBrick, searedBricks]]);
  
 recipes.addShaped(<TConstruct:LavaTankNether>, [
-[<TConstruct:SmelteryNether:2>, <TConstruct:materials:37>, <TConstruct:SmelteryNether:2>],
-[<TConstruct:materials:37>, null, <TConstruct:materials:37>],
-[<TConstruct:SmelteryNether:2>, <TConstruct:materials:37>, <TConstruct:SmelteryNether:2>]]);
+[searedNeatherBricks, searedNeatherBrick, searedNeatherBricks],
+[searedNeatherBrick, null, searedNeatherBrick],
+[searedNeatherBricks, searedNeatherBrick, searedNeatherBricks]]);
 
 // Smeltery Controller
 recipes.removeShaped(<TConstruct:Smeltery>);
 recipes.removeShaped(<TConstruct:SmelteryNether>);
 recipes.addShaped(<TConstruct:Smeltery>, [
-[<TConstruct:Smeltery:2>, <TConstruct:materials:2>, <TConstruct:Smeltery:2>],
-[<TConstruct:materials:2>, <minecraft:furnace>, <TConstruct:materials:2>],
-[<TConstruct:Smeltery:2>, <TConstruct:materials:2>, <TConstruct:Smeltery:2>]]);
+[null, chisel, null],
+[searedBrick, searedBricks, searedBrick],
+[null, glass, null]]);
  
 recipes.addShaped(<TConstruct:SmelteryNether>, [
-[<TConstruct:SmelteryNether:2>, <TConstruct:materials:37>, <TConstruct:SmelteryNether:2>],
-[<TConstruct:materials:37>, <Natura:NetherFurnace>, <TConstruct:materials:37>],
-[<TConstruct:SmelteryNether:2>, <TConstruct:materials:37>, <TConstruct:SmelteryNether:2>]]);
+[null, chisel, null],
+[searedNeatherBrick, searedNeatherBricks, searedNeatherBrick],
+[null, glass, null]]);
 
 // Smeltery Drain
 recipes.remove(<TConstruct:Smeltery:1>);
 recipes.remove(<TConstruct:SmelteryNether:1>);
-recipes.addShaped(<TConstruct:SmelteryNether:1>, [[<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>], [null, <TConstruct:CastingChannel>, <TConstruct:SmelteryNether:2>], [<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:SmelteryNether:2>]]);
-recipes.addShaped(<TConstruct:Smeltery:1>, [[<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>], [null, <TConstruct:CastingChannel>, <TConstruct:Smeltery:2>], [<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:Smeltery:2>]]);
+recipes.addShaped(<TConstruct:SmelteryNether:1>, [[searedNeatherBrick, searedNeatherBrick, searedNeatherBrick], [null, <TConstruct:CastingChannel>, searedNeatherBricks], [searedNeatherBrick, searedNeatherBrick, searedNeatherBricks]]);
+recipes.addShaped(<TConstruct:Smeltery:1>, [[searedBrick, searedBrick, searedBrick], [null, <TConstruct:CastingChannel>, searedBricks], [searedBrick, searedBrick, searedBricks]]);
 
 // Casting Table
 recipes.remove(<TConstruct:SearedBlock>);
 recipes.remove(<TConstruct:SearedBlockNether>);
-recipes.addShaped(<TConstruct:SearedBlockNether>, [[<TConstruct:SmelteryNether:2>, <TConstruct:materials:37>, <TConstruct:SmelteryNether:2>], [<TConstruct:materials:37>, null, <TConstruct:materials:37>], [<TConstruct:materials:37>, null, <TConstruct:materials:37>]]);
-recipes.addShaped(<TConstruct:SearedBlock>, [[<TConstruct:Smeltery:2>, <TConstruct:materials:2>, <TConstruct:Smeltery:2>], [<TConstruct:materials:2>, null, <TConstruct:materials:2>], [<TConstruct:materials:2>, null, <TConstruct:materials:2>]]);
+recipes.addShaped(<TConstruct:SearedBlockNether>, [[searedNeatherBricks, searedNeatherBrick, searedNeatherBricks], [searedNeatherBrick, null, searedNeatherBrick], [searedNeatherBrick, null, searedNeatherBrick]]);
+recipes.addShaped(<TConstruct:SearedBlock>, [[searedBricks, searedBrick, searedBricks], [searedBrick, null, searedBrick], [searedBrick, null, searedBrick]]);
 
 // Casting Basin
 recipes.remove(<TConstruct:SearedBlock:2>);
 recipes.remove(<TConstruct:SearedBlockNether:2>);
-recipes.addShaped(<TConstruct:SearedBlockNether:2>, [[<TConstruct:materials:37>, null, <TConstruct:materials:37>], [<ore:blockGlassColorless>, null, <ore:blockGlassColorless>], [<TConstruct:materials:37>, <TConstruct:SmelteryNether:2>, <TConstruct:materials:37>]]);
-recipes.addShaped(<TConstruct:SearedBlock:2>, [[<TConstruct:materials:2>, null, <TConstruct:materials:2>], [<ore:blockGlassColorless>, null, <ore:blockGlassColorless>], [<TConstruct:materials:2>, <TConstruct:Smeltery:2>, <TConstruct:materials:2>]]);
+recipes.addShaped(<TConstruct:SearedBlockNether:2>, [[searedNeatherBrick, null, searedNeatherBrick], [<ore:blockGlassColorless>, null, <ore:blockGlassColorless>], [searedNeatherBrick, searedNeatherBricks, searedNeatherBrick]]);
+recipes.addShaped(<TConstruct:SearedBlock:2>, [[searedBrick, null, searedBrick], [<ore:blockGlassColorless>, null, <ore:blockGlassColorless>], [searedBrick, searedBricks, searedBrick]]);
 
 // Crafting Station
 recipes.remove(<TConstruct:CraftingStation>);

@@ -130,6 +130,7 @@ for i, plankWood in naturaPlanks
   recipes.remove(plankWood);
   recipes.remove(stickWood);
   recipes.remove(slabWood);
+  recipes.remove(<Natura:NetherFurnace>);
 
   //Sawless Recipe for planks
   recipes.addShapeless(plankWood * 2, [logWood]);
