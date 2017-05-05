@@ -24,20 +24,24 @@ val stone = <minecraft:stone>;
 val sand = <ore:sand>;
 val glass = <minecraft:glass>;
 val brick = <minecraft:brick>;
+val logOak = <minecraft:log:0>;
+val resin = <IC2:itemHarz>;
+val plankOak = <minecraft:planks:0>;
  
 // Mod Items
  
-val campFire = <rodrcore:tile.camp_fire_idle>;
-val furnaceForm = <rodrcore:tile.form_furnace>;
-val unfiredClayPan = <rodrcore:item.unfired_clay_pan>;
-val unfiredClayPot = <rodrcore:item.unfired_clay_pot>;
-val clayPan = <rodrcore:item.clay_pan>;
-val clayPot = <rodrcore:item.clay_pot>;
-val pan = <rodrcore:item.pan>;
-val pot = <rodrcore:item.pot>;
-val rock = <rodrcore:item.rock>;
-val smallCrucible = <rodrcore:item.small_crucible>;
-val flintandStone = <rodrcore:item.flint_and_stone>;
+val campFire = <rodrcore:camp_fire_idle>;
+val furnaceForm = <rodrcore:form_furnace>;
+val unfiredClayPan = <rodrcore:unfired_clay_pan>;
+val unfiredClayPot = <rodrcore:unfired_clay_pot>;
+val clayPan = <rodrcore:fired_clay_pan>;
+val clayPot = <rodrcore:fired_clay_pot>;
+val pan = <rodrcore:pan>;
+val pot = <rodrcore:pot>;
+val rock = <rodrcore:rock>;
+val smallCrucible = <rodrcore:small_crucible>;
+val flintandStone = <rodrcore:flint_and_stone>;
+val barkStrip = <rodrcore:bark_strip>;
  
  
 // Remove/Hide unused
@@ -112,3 +116,11 @@ Campfire.addSmallCrucibleRecipe(glass, sand);
 
 //brick
 Campfire.addSmallCrucibleRecipe(brick, clay);
+
+
+//logOak
+recipes.addShaped(logOak ,[
+  [barkStrip, resin, barkStrip],
+  [plankOak, plankOak, plankOak],
+  [barkStrip, resin, barkStrip]
+]);
