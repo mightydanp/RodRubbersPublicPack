@@ -27,6 +27,7 @@ val brick = <minecraft:brick>;
 val logOak = <minecraft:log:0>;
 val resin = <IC2:itemHarz>;
 val plankOak = <minecraft:planks:0>;
+val dustAsh = <ore:dustAsh>;
  
 // Mod Items
  
@@ -56,9 +57,13 @@ recipes.addShaped(campFire,
 	
 //furnace form
 recipes.addShaped(furnaceForm, 
-    [[cfPowder,cfPowder,cfPowder],
-	[cfPowder,waterBucket,cfPowder],
+    [[cfPowder,dustAsh,cfPowder],
+	[dustAsh,waterBucket,dustAsh],
     [cfPowder,cfPowder,cfPowder]]);
+recipes.addShaped(furnaceForm, 
+    [[cfPowder,cfPowder,cfPowder],
+	[dustAsh,waterBucket,dustAsh],
+    [cfPowder,dustAsh,cfPowder]]);
 recipes.remove(<minecraft:furnace>);
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:furnace>, <liquid:stone.seared> * 1152, furnaceForm, true, 320);
 	
