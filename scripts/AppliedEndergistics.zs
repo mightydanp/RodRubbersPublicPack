@@ -1,4 +1,4 @@
-
+//gregtech:gt.metaitem.01:32750
 // appliedenergistics2.zs Tweaks
 
 import mods.ic2.Compressor;
