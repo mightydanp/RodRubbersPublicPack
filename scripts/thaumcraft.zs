@@ -40,12 +40,12 @@ for blockThaumium in <ore:blockThaumium>.items {
 }
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusExcavation>);
 mods.thaumcraft.Arcane.addShaped("FOCUSEXCAVATION", <Thaumcraft:FocusExcavation>, "terra 20,perditio 5, ordo 5", [[<Thaumcraft:ItemShard:3>, <minecraft:quartz>, <Thaumcraft:ItemShard:3>], 
-                                                                                     [<minecraft:quartz>, <ore:dustManyullyn>, <minecraft:quartz>],
+                                                                                     [<minecraft:quartz>, <ore:dustTitianium>, <minecraft:quartz>],
                                                                                      [<Thaumcraft:ItemShard:3>, <minecraft:quartz>, <Thaumcraft:ItemShard:3>]]);
 
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusTrade>);
 mods.thaumcraft.Arcane.addShaped("FOCUSTRADE", <Thaumcraft:FocusTrade>, "ordo 15, perditio 15, terra 10", [[<Thaumcraft:ItemShard:6>, <minecraft:quartz>, <Thaumcraft:ItemShard:6>], 
-                                                                                     [<minecraft:quartz>, <ore:dustManyullyn>, <minecraft:quartz>],
+                                                                                     [<minecraft:quartz>, <ore:dustTitianium>, <minecraft:quartz>],
                                                                                      [<Thaumcraft:ItemShard:6>, <minecraft:quartz>, <Thaumcraft:ItemShard:6>]]);
 
 recipes.addShapeless(<Thaumcraft:blockCosmeticSolid:4>, [<gregtech:gt.blockmetal7:4>]);

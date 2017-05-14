@@ -34,6 +34,10 @@ val File = <ore:craftingToolFile>;
 val NetherStar = <minecraft:nether_star>;
 val GApple = <minecraft:golden_apple>;
 
+
+//Disable
+recipes.remove(<TConstruct:explosive.slime:*>);
+
 // Heart Canister
 recipes.remove(<TConstruct:heartCanister>);
 Assembler.addRecipe(<TConstruct:heartCanister>, <gregtech:gt.metaitem.01:18019>, <gregtech:gt.metaitem.01:27019> * 4, 2400, 512);

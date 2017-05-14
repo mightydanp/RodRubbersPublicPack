@@ -25,8 +25,18 @@ val sand = <ore:sand>;
 val glass = <minecraft:glass>;
 val brick = <minecraft:brick>;
 val logOak = <minecraft:log:0>;
+val logSpruce = <minecraft:log:1>;
+val logBirch = <minecraft:log:2>;
+val logJungle = <minecraft:log:3>;
+val logAcacia = <minecraft:log2:0>;
+val logDarkOak = <minecraft:log2:1>;
 val resin = <IC2:itemHarz>;
 val plankOak = <minecraft:planks:0>;
+val plankSpruce = <minecraft:planks:1>;
+val plankBirch = <minecraft:planks:2>;
+val plankJungle = <minecraft:planks:3>;
+val plankAcacia = <minecraft:planks:4>;
+val plankDarkOak = <minecraft:planks:5>;
 val dustAsh = <ore:dustAsh>;
  
 // Mod Items
@@ -127,5 +137,40 @@ Campfire.addSmallCrucibleRecipe(brick, clay);
 recipes.addShaped(logOak ,[
   [barkStrip, resin, barkStrip],
   [plankOak, plankOak, plankOak],
+  [barkStrip, resin, barkStrip]
+]);
+
+//logSpruce
+recipes.addShaped(logSpruce ,[
+  [barkStrip, resin, barkStrip],
+  [plankSpruce, plankSpruce, plankSpruce],
+  [barkStrip, resin, barkStrip]
+]);
+
+//logBirch
+recipes.addShaped(logBirch ,[
+  [barkStrip, resin, barkStrip],
+  [plankBirch, plankBirch, plankBirch],
+  [barkStrip, resin, barkStrip]
+]);
+
+//logJungle
+recipes.addShaped(logJungle ,[
+  [barkStrip, resin, barkStrip],
+  [plankJungle, plankJungle, plankJungle],
+  [barkStrip, resin, barkStrip]
+]);
+
+//logAcacia
+recipes.addShaped(logAcacia ,[
+  [barkStrip, resin, barkStrip],
+  [plankAcacia, plankAcacia, plankAcacia],
+  [barkStrip, resin, barkStrip]
+]);
+
+//logDarkOak
+recipes.addShaped(logDarkOak ,[
+  [barkStrip, resin, barkStrip],
+  [plankDarkOak, plankDarkOak, plankDarkOak],
   [barkStrip, resin, barkStrip]
 ]);
