@@ -11,3 +11,4 @@ furnace.remove(<ore:nuggetElvenElementium>);
 furnace.remove(<ore:nuggetPulsatingIron>);
 furnace.remove(<ore:itemVibrantNugget>);
 furnace.remove(<ore:nuggetGold>);
+
