@@ -274,7 +274,7 @@ recipes.remove(StorageComponent64K);
 
 
 // --- Fluix Block --- This one conflicts with itself for some reason.
-Compressor.addRecipe(FluixBlock, PureFluixCrystal * 9);
+Compressor.addRecipe(FluixBlock, PureFluixCrystal * 8);
 Compressor.addRecipe(FluixBlock, FluixCrystal * 4);
 
 //Fluix Dust
@@ -1007,4 +1007,4 @@ Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.me
 Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23523>  * 4, 200, 128);
 
 //
-mods.appeng.Grinder.addRecipe(<minecraft:cobblestone>, <gregtech:gt.metaitem.01:299> * 1, 4, <gregtech:gt.metaitem.01:299>* 2, 0.20,  <gregtech:gt.metaitem.01:3299>* 1, 0.25);
+mods.appeng.Grinder.addRecipe(<minecraft:cobblestone>, <rodrcore:rock> * 1, 4, <gregtech:gt.metaitem.01:3299>* 1, 0.25);

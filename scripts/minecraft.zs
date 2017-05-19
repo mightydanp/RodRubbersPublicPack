@@ -250,6 +250,9 @@ val File = <ore:craftingToolFile>;
 val Map = <minecraft:map>;
 val Paper = <ore:paperEmpty>;
 
+val Nitor = <Thaumcraft:ItemResource:1>;
+val Alumentum = <Thaumcraft:ItemResource:0>;
+
 
 // --- Removing Recipes ---
 
@@ -275,6 +278,9 @@ recipes.remove(FenceGate);
 recipes.remove(Piston);
 
 // {
+
+// --- Button Fire
+recipes.removeShapeless(<minecraft:stone_button>);
 
 // --- Trapped Chest
 recipes.remove(TrappedChest);
@@ -739,6 +745,9 @@ recipes.remove(Map);
 
 // --- Adding Back Recipes ---
 
+// --- Button
+recipes.addShapeless(<minecraft:stone_button>, [<ore:stoneSmooth>]);
+
 // --- Enchantment Table
 recipes.addShaped(EnchantingTable, [
  [Nitor, Diamond, Alumentum],
@@ -775,10 +784,10 @@ recipes.addShaped(Dropper, [
 [Cobble, Piston, Cobble]]);
 
 // --- Piston
-// recipes.addShaped(Piston, [
-// [CarpentersBlock, CarpentersBlock, CarpentersBlock],
-// [IronScrew, IronPlate, IronScrew],
-// [WoodGear, RedAlloyWire, WoodGear]]);
+recipes.addShaped(Piston, [
+  [CarpentersBlock, CarpentersBlock, CarpentersBlock],
+  [IronScrew, IronPlate, IronScrew],
+  [WoodGear, RedAlloyWire, WoodGear]]);
 
 // --- Sticky Piston
 recipes.addShaped(SPiston, [
