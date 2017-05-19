@@ -5,13 +5,9 @@ import mods.gregtech.ImplosionCompressor;
 
 // --- Variables ---
 
-// Change unless Mod is installed
-val BedrockDust = <RotaryCraft:rotarycraft_item_powders:4>;
 val Lens = <ore:lensDiamond>;
 
 val Bowstring = <TConstruct:bowstring>;
-
-val Paintbrush = <ExtraUtilities:paintbrush>;
 
 val StandardRail = <Railcraft:part.rail>;
 val AdvancedRail = <Railcraft:part.rail:1>;
@@ -19,7 +15,7 @@ val WoodRailbed = <Railcraft:part.railbed>;
 
 val ClearPane = <TConstruct:GlassPane>;
 
-val NaturaBarley4 = Natura:barleyFood:4>;
+val NaturaBarley4 = <Natura:barleyFood:4>;
 
 val UBLigniteCoal = <UndergroundBiomes:ligniteCoal>;
 
@@ -29,7 +25,7 @@ val ObsidianChest = <IronChest:BlockIronChest:6>;
 
 val GlowstoneGlass = <ExtraUtilities:decorativeBlock2:7>;
 
-val Detector = <Railcraft:tile.railcraft.detector:1>;
+val Detector = <Railcraft:detector:1>;
 
 // unused
 val CarpentersBlock = <CarpentersBlocks:blockCarpentersBlock>;
@@ -743,11 +739,6 @@ recipes.remove(Map);
 
 // --- Adding Back Recipes ---
 
-
-// --- Bedrock
-// Delete unless RotaryCraft is installed
-ImplosionCompressor.addRecipe(Bedrock, BedrockDust * 9, 8);
-
 // --- Enchantment Table
 // recipes.addShaped(EnchantingTable, [
 // [Nitor, Diamond, Alumentum],
@@ -1147,10 +1138,10 @@ recipes.addShaped(Hopper, [
 // {
 
 // --- White Wool
-recipes.addShaped(Wool * 7, [
+recipes.addShaped(Wool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, WhiteDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterWhite>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(Wool,
 [AnyWool, WhiteDye]);
@@ -1161,136 +1152,136 @@ recipes.addShaped(Wool, [
 [String, null, String]]);
 
 // --- Orange Wool
-recipes.addShaped(OrangeWool * 7, [
+recipes.addShaped(OrangeWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, OrangeDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterOrange>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(OrangeWool,
 [AnyWool, OrangeDye]);
 
 // --- Magenta Wool
-recipes.addShaped(MagentaWool * 7, [
+recipes.addShaped(MagentaWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, MagentaDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterMagenta>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // -- Alternate Recipe
 recipes.addShapeless(MagentaWool,
 [AnyWool, MagentaDye]);
 
 // --- Light Blue Wool
-recipes.addShaped(LightBlueWool * 7, [
+recipes.addShaped(LightBlueWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, LightBlueDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterCloud>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(LightBlueWool,
 [AnyWool, LightBlueDye]);
 
 // --- Yellow Wool
-recipes.addShaped(YellowWool * 7, [
+recipes.addShaped(YellowWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, YellowDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterYellow>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(YellowWool,
 [AnyWool, YellowDye]);
 
 // --- Lime Wool
-recipes.addShaped(LimeWool * 7, [
+recipes.addShaped(LimeWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, LimeDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterLime>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(LimeWool,
 [AnyWool, LimeDye]);
 
 // --- Pink Wool
-recipes.addShaped(PinkWool * 7, [
+recipes.addShaped(PinkWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, PinkDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterPink>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(PinkWool,
 [AnyWool, PinkDye]);
 
 // --- Gray Wool
-recipes.addShaped(GrayWool * 7, [
+recipes.addShaped(GrayWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, GrayDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterDarkGrey>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(GrayWool,
 [AnyWool, GrayDye]);
 
 // --- Light Gray Wool
-recipes.addShaped(LightGrayWool * 7, [
+recipes.addShaped(LightGrayWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, LightGrayDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterLightGrey>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(LightGrayWool,
 [AnyWool, LightGrayDye]);
 
 // --- Cyan Wool
-recipes.addShaped(CyanWool * 7, [
+recipes.addShaped(CyanWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, CyanDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterCyan>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(CyanWool,
 [AnyWool, CyanDye]);
 
 // --- Purple Wool
-recipes.addShaped(PurpleWool * 7, [
+recipes.addShaped(PurpleWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, PurpleDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterPurple>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(PurpleWool,
 [AnyWool, PurpleDye]);
 
 // --- Blue Wool
-recipes.addShaped(BlueWool * 7, [
+recipes.addShaped(BlueWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, BlueDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterBlue>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(BlueWool,
 [AnyWool, BlueDye]);
 
 // --- Brown Wool
-recipes.addShaped(BrownWool * 7, [
+recipes.addShaped(BrownWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, BrownDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterBrown>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(BrownWool,
 [AnyWool, BrownDye]);
 
 // --- Green Wool
-recipes.addShaped(GreenWool * 7, [
+recipes.addShaped(GreenWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, GreenDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterGreen>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(GreenWool,
 [AnyWool, GreenDye]);
 
 // --- Red Wool
-recipes.addShaped(RedWool * 7, [
+recipes.addShaped(RedWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, RedDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterRed>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(RedWool,
 [AnyWool, RedDye]);
 
 // --- Black Wool
-recipes.addShaped(BlackWool * 7, [
+recipes.addShaped(BlackWool * 8, [
 [AnyWool, AnyWool, AnyWool],
-[AnyWool, BlackDye, AnyWool],
-[AnyWool, Paintbrush, AnyWool]]);
+[AnyWool, <IC2:itemToolPainterBlack>, AnyWool],
+[AnyWool, AnyWool, AnyWool]]);
 // - Alternate Recipe
 recipes.addShapeless(BlackWool,
 [AnyWool, BlackDye]);
@@ -1300,145 +1291,145 @@ recipes.addShapeless(BlackWool,
 
 
 // --- White Glass
-recipes.addShaped(WhiteGlass * 7, [
+recipes.addShaped(WhiteGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, WhiteDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterWhite>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(WhiteGlass,
 [Glass, OrangeDye]);
 
 // --- Orange Glass
-recipes.addShaped(OrangeGlass * 7, [
+recipes.addShaped(OrangeGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, OrangeDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterOrange>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(OrangeGlass,
 [Glass, OrangeDye]);
 
 // --- Magenta Glass
-recipes.addShaped(MagentaGlass * 7, [
+recipes.addShaped(MagentaGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, MagentaDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterMagenta>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(MagentaGlass,
 [Glass, MagentaDye]);
 
 // --- Light Blue Glass
-recipes.addShaped(LightBlueGlass * 7, [
+recipes.addShaped(LightBlueGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, LightBlueDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterCloud>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(LightBlueGlass,
 [Glass, LightBlueDye]);
 
 // --- Yellow Glass
-recipes.addShaped(YellowGlass * 7, [
+recipes.addShaped(YellowGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, YellowDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterYellow>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(YellowGlass,
-[Glass, YellowDye]);
+[Glass, Glass]);
 
 // --- Lime Glass
-recipes.addShaped(LimeGlass * 7, [
+recipes.addShaped(LimeGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, LimeDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterLime>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(LimeGlass,
 [Glass, LimeDye]);
 
 // --- Pink Glass
-recipes.addShaped(PinkGlass * 7, [
+recipes.addShaped(PinkGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, PinkDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterPink>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(PinkGlass,
 [Glass, PinkDye]);
 
 // --- Gray Glass
-recipes.addShaped(GrayGlass * 7, [
+recipes.addShaped(GrayGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, GrayDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterDarkGrey>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(GrayGlass,
 [Glass, GrayDye]);
 
 // --- Light Gray Glass
-recipes.addShaped(LightGrayGlass * 7, [
+recipes.addShaped(LightGrayGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, LightGrayDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterLightGrey>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(LightGrayGlass,
 [Glass, LightGrayDye]);
 
 // --- Cyan Glass
-recipes.addShaped(CyanGlass * 7, [
+recipes.addShaped(CyanGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, CyanDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterCyan>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(CyanGlass,
 [Glass, CyanDye]);
 
 // --- Purple Glass
-recipes.addShaped(PurpleGlass * 7, [
+recipes.addShaped(PurpleGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, PurpleDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterPurple>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(PurpleGlass,
 [Glass, PurpleDye]);
 
 // --- Blue Glass
-recipes.addShaped(BlueGlass * 7, [
+recipes.addShaped(BlueGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, BlueDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterBlue>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(BlueGlass,
 [Glass, BlueDye]);
 
 // --- Brown Glass
-recipes.addShaped(BrownGlass * 7, [
+recipes.addShaped(BrownGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, BrownDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterBrown>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(BrownGlass,
 [Glass, BrownDye]);
 
 // --- Green Glass
-recipes.addShaped(GreenGlass * 7, [
+recipes.addShaped(GreenGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, GreenDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterGreen>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(GreenGlass,
 [Glass, GreenDye]);
 
 // --- Red Glass
-recipes.addShaped(RedGlass * 7, [
+recipes.addShaped(RedGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, RedDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterRed>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(RedGlass,
 [Glass, RedDye]);
 
 // --- Black Glass
-recipes.addShaped(BlackGlass * 7, [
+recipes.addShaped(BlackGlass * 8, [
 [Glass, Glass, Glass],
-[Glass, BlackDye, Glass],
-[Glass, Paintbrush, Glass]]);
+[Glass, <IC2:itemToolPainterBlack>, Glass],
+[Glass, Glass, Glass]]);
 // - Alternate Recipe
 recipes.addShapeless(BlackGlass,
 [Glass, BlackDye]);
@@ -1448,145 +1439,145 @@ recipes.addShapeless(BlackGlass,
 
 
 // --- White Glass Pane
-recipes.addShaped(WhiteGlassPane * 7, [
+recipes.addShaped(WhiteGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, WhiteDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterWhite>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(WhiteGlassPane,
 [GlassPane, OrangeDye]);
 
 // --- Orange Glass Pane
-recipes.addShaped(OrangeGlassPane * 7, [
+recipes.addShaped(OrangeGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, OrangeDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterOrange>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(OrangeGlassPane,
 [GlassPane, OrangeDye]);
 
 // --- Magenta Glass Pane
-recipes.addShaped(MagentaGlassPane * 7, [
+recipes.addShaped(MagentaGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, MagentaDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterMagenta>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(MagentaGlassPane,
 [GlassPane, MagentaDye]);
 
 // --- Light Blue Glass Pane
-recipes.addShaped(LightBlueGlassPane * 7, [
+recipes.addShaped(LightBlueGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, LightBlueDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterCloud>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(LightBlueGlassPane,
 [GlassPane, LightBlueDye]);
 
 // --- Yellow Glass Pane
-recipes.addShaped(YellowGlassPane * 7, [
+recipes.addShaped(YellowGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, YellowDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterYellow>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(YellowGlassPane,
 [GlassPane, YellowDye]);
 
 // --- Lime Glass Pane
-recipes.addShaped(LimeGlassPane * 7, [
+recipes.addShaped(LimeGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, LimeDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterLime>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(LimeGlassPane,
 [GlassPane, LimeDye]);
 
 // --- Pink Glass Pane
-recipes.addShaped(PinkGlassPane * 7, [
+recipes.addShaped(PinkGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, PinkDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterPink>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(PinkGlassPane,
 [GlassPane, PinkDye]);
 
 // --- Gray Glass Pane
-recipes.addShaped(GrayGlassPane * 7, [
+recipes.addShaped(GrayGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, GrayDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterDarkGrey>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(GrayGlassPane,
 [GlassPane, GrayDye]);
 
 // --- Light Gray Glass Pane
-recipes.addShaped(LightGrayGlassPane * 7, [
+recipes.addShaped(LightGrayGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, LightGrayDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterLightGrey>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(LightGrayGlassPane,
 [GlassPane, LightGrayDye]);
 
 // --- Cyan Glass Pane
-recipes.addShaped(CyanGlassPane * 7, [
+recipes.addShaped(CyanGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, CyanDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterCyan>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(CyanGlassPane,
 [GlassPane, CyanDye]);
 
 // --- Purple Glass Pane
-recipes.addShaped(PurpleGlassPane * 7, [
+recipes.addShaped(PurpleGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, PurpleDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterPurple>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(PurpleGlassPane,
 [GlassPane, PurpleDye]);
 
 // --- Blue Glass Pane
-recipes.addShaped(BlueGlassPane * 7, [
+recipes.addShaped(BlueGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, BlueDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterBlue>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(BlueGlassPane,
 [GlassPane, BlueDye]);
 
 // --- Brown Glass Pane
-recipes.addShaped(BrownGlassPane * 7, [
+recipes.addShaped(BrownGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, BrownDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterBrown>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(BrownGlassPane,
 [GlassPane, BrownDye]);
 
 // --- Green Glass Pane
-recipes.addShaped(GreenGlassPane * 7, [
+recipes.addShaped(GreenGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, GreenDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterGreen>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(GreenGlassPane,
 [GlassPane, GreenDye]);
 
 // --- Red Glass Pane
-recipes.addShaped(RedGlassPane * 7, [
+recipes.addShaped(RedGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, RedDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterRed>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(RedGlassPane,
 [GlassPane, RedDye]);
 
 // --- Black Glass Pane
-recipes.addShaped(BlackGlassPane * 7, [
+recipes.addShaped(BlackGlassPane * 8, [
 [GlassPane, GlassPane, GlassPane],
-[GlassPane, BlackDye, GlassPane],
-[GlassPane, Paintbrush, GlassPane]]);
+[GlassPane, <IC2:itemToolPainterBlack>, GlassPane],
+[GlassPane, GlassPane, GlassPane]]);
 // - Alternate Recipe
 recipes.addShapeless(BlackGlassPane,
 [GlassPane, BlackDye]);
@@ -1606,10 +1597,10 @@ recipes.addShaped(WhiteCarpet * 3, [
 [null, null, null]]);
 
 // --- Orange Carpet
-recipes.addShaped(OrangeCarpet * 7, [
+recipes.addShaped(OrangeCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, OrangeDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterOrange>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(OrangeCarpet,
 [WhiteCarpet, OrangeDye]);
@@ -1624,10 +1615,10 @@ recipes.addShaped(OrangeCarpet * 3, [
 [null, null, null]]);
 
 // --- Magenta Carpet
-recipes.addShaped(MagentaCarpet * 7, [
+recipes.addShaped(MagentaCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, MagentaDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterMagenta>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(MagentaCarpet,
 [WhiteCarpet, MagentaDye]);
@@ -1642,10 +1633,10 @@ recipes.addShaped(MagentaCarpet * 3, [
 [null, null, null]]);
 
 // --- Light Blue Carpet
-recipes.addShaped(LightBlueCarpet * 7, [
+recipes.addShaped(LightBlueCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, LightBlueDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterCloud>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(LightBlueCarpet,
 [WhiteCarpet, LightBlueDye]);
@@ -1660,10 +1651,10 @@ recipes.addShaped(LightBlueCarpet * 3, [
 [null, null, null]]);
 
 // --- Yellow Carpet
-recipes.addShaped(YellowCarpet * 7, [
+recipes.addShaped(YellowCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, YellowDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterYellow>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(YellowCarpet,
 [WhiteCarpet, YellowDye]);
@@ -1678,10 +1669,10 @@ recipes.addShaped(YellowCarpet * 3, [
 [null, null, null]]);
 
 // --- Lime Carpet
-recipes.addShaped(LimeCarpet * 7, [
+recipes.addShaped(LimeCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, LimeDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterLime>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(LimeCarpet,
 [WhiteCarpet, LimeDye]);
@@ -1696,10 +1687,10 @@ recipes.addShaped(LimeCarpet * 3, [
 [null, null, null]]);
 
 // --- Pink Carpet
-recipes.addShaped(PinkCarpet * 7, [
+recipes.addShaped(PinkCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, PinkDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterPink>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(PinkCarpet,
 [WhiteCarpet, PinkDye]);
@@ -1714,10 +1705,10 @@ recipes.addShaped(PinkCarpet * 3, [
 [null, null, null]]);
 
 // --- Gray Carpet
-recipes.addShaped(GrayCarpet * 7, [
+recipes.addShaped(GrayCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, GrayDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterDarkGrey>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(GrayCarpet,
 [WhiteCarpet, GrayDye]);
@@ -1732,10 +1723,10 @@ recipes.addShaped(GrayCarpet * 3, [
 [null, null, null]]);
 
 // --- Light Gray Carpet
-recipes.addShaped(LightGrayCarpet * 7, [
+recipes.addShaped(LightGrayCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, LightGrayDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterLightGrey>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(LightGrayCarpet,
 [WhiteCarpet, LightGrayDye]);
@@ -1750,10 +1741,10 @@ recipes.addShaped(LightGrayCarpet * 3, [
 [null, null, null]]);
 
 // --- Cyan Carpet
-recipes.addShaped(CyanCarpet * 7, [
+recipes.addShaped(CyanCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, CyanDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterCyan>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(CyanCarpet,
 [WhiteCarpet, CyanDye]);
@@ -1768,10 +1759,10 @@ recipes.addShaped(CyanCarpet * 3, [
 [null, null, null]]);
 
 // --- Purple Carpet
-recipes.addShaped(PurpleCarpet * 7, [
+recipes.addShaped(PurpleCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, PurpleDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterPurple>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(PurpleCarpet,
 [WhiteCarpet, PurpleDye]);
@@ -1786,10 +1777,10 @@ recipes.addShaped(PurpleCarpet * 3, [
 [null, null, null]]);
 
 // --- Blue Carpet
-recipes.addShaped(BlueCarpet * 7, [
+recipes.addShaped(BlueCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, BlueDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterBlue>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(BlueCarpet,
 [WhiteCarpet, BlueDye]);
@@ -1804,10 +1795,10 @@ recipes.addShaped(BlueCarpet * 3, [
 [null, null, null]]);
 
 // --- Brown Carpet
-recipes.addShaped(BrownCarpet * 7, [
+recipes.addShaped(BrownCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, BrownDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterBrown>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(BrownCarpet,
 [WhiteCarpet, BrownDye]);
@@ -1822,10 +1813,10 @@ recipes.addShaped(BrownCarpet * 3, [
 [null, null, null]]);
 
 // --- Green Carpet
-recipes.addShaped(GreenCarpet * 7, [
+recipes.addShaped(GreenCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, GreenDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterGreen>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(GreenCarpet,
 [WhiteCarpet, GreenDye]);
@@ -1840,10 +1831,10 @@ recipes.addShaped(GreenCarpet * 3, [
 [null, null, null]]);
 
 // --- Red Carpet
-recipes.addShaped(RedCarpet * 7, [
+recipes.addShaped(RedCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, RedDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterRed>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(RedCarpet,
 [WhiteCarpet, RedDye]);
@@ -1858,10 +1849,10 @@ recipes.addShaped(RedCarpet * 3, [
 [null, null, null]]);
 
 // --- Black Carpet
-recipes.addShaped(BlackCarpet * 7, [
+recipes.addShaped(BlackCarpet * 8, [
 [WhiteCarpet, WhiteCarpet, WhiteCarpet],
-[WhiteCarpet, BlackDye, WhiteCarpet],
-[WhiteCarpet, Paintbrush, WhiteCarpet]]);
+[WhiteCarpet, <IC2:itemToolPainterBlack>, WhiteCarpet],
+[WhiteCarpet, WhiteCarpet, WhiteCarpet]]);
 // - Alternate Recipe
 recipes.addShapeless(BlackCarpet,
 [WhiteCarpet, BlackDye]);
@@ -1880,145 +1871,145 @@ recipes.addShaped(BlackCarpet * 3, [
 
 
 // --- White Stained Clay Block
-recipes.addShaped(WhiteHardClay * 7, [
+recipes.addShaped(WhiteHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, WhiteDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterWhite>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(WhiteHardClay,
 [ClayBlock, WhiteDye]);
 
 // --- Orange Stained Clay Block
-recipes.addShaped(OrangeHardClay * 7, [
+recipes.addShaped(OrangeHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, OrangeDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterOrange>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(OrangeHardClay,
 [ClayBlock, OrangeDye]);
 
 // --- Magenta Stained Clay Block
-recipes.addShaped(MagentaHardClay * 7, [
+recipes.addShaped(MagentaHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, MagentaDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterMagenta>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(MagentaHardClay,
 [ClayBlock, MagentaDye]);
 
 // --- Light Blue Stained Clay Block
-recipes.addShaped(LightBlueHardClay * 7, [
+recipes.addShaped(LightBlueHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, LightBlueDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterCloud>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(LightBlueHardClay,
 [ClayBlock, LightBlueDye]);
 
 // --- Yellow Stained Clay Block
-recipes.addShaped(YellowHardClay * 7, [
+recipes.addShaped(YellowHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, YellowDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterYellow>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(YellowHardClay,
 [ClayBlock, YellowDye]);
 
 // --- Lime Stained Clay Block
-recipes.addShaped(LimeHardClay * 7, [
+recipes.addShaped(LimeHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, LimeDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterLime>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(LimeHardClay,
 [ClayBlock, LimeDye]);
 
 // --- Pink Stained Clay Block
-recipes.addShaped(PinkHardClay * 7, [
+recipes.addShaped(PinkHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, PinkDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterPink>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(PinkHardClay,
 [ClayBlock, PinkDye]);
 
 // --- Gray Stained Clay Block
-recipes.addShaped(GrayHardClay * 7, [
+recipes.addShaped(GrayHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, GrayDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterDarkGrey>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(GrayHardClay,
 [ClayBlock, GrayDye]);
 
 // --- Light Gray Stained Clay Block
-recipes.addShaped(LightGrayHardClay * 7, [
+recipes.addShaped(LightGrayHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, LightGrayDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterLightGrey>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(LightGrayHardClay,
 [ClayBlock, LightGrayDye]);
 
 // --- Cyan Stained Clay Block
-recipes.addShaped(CyanHardClay * 7, [
+recipes.addShaped(CyanHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, CyanDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterCyan>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(CyanHardClay,
 [ClayBlock, CyanDye]);
 
 // --- Purple Stained Clay Block
-recipes.addShaped(PurpleHardClay * 7, [
+recipes.addShaped(PurpleHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, PurpleDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterPurple>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(PurpleHardClay,
 [ClayBlock, PurpleDye]);
 
 // --- Blue Stained Clay Block
-recipes.addShaped(BlueHardClay * 7, [
+recipes.addShaped(BlueHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, BlueDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterBlue>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(BlueHardClay,
 [ClayBlock, BlueDye]);
 
 // --- Brown Stained Clay Block
-recipes.addShaped(BrownHardClay * 7, [
+recipes.addShaped(BrownHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, BrownDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterBrown>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(BrownHardClay,
 [ClayBlock, BrownDye]);
 
 // --- Green Stained Clay Block
-recipes.addShaped(GreenHardClay * 7, [
+recipes.addShaped(GreenHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, GreenDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterGreen>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(GreenHardClay,
 [ClayBlock, GreenDye]);
 
 // --- Red Stained Clay Block
-recipes.addShaped(RedHardClay * 7, [
+recipes.addShaped(RedHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, RedDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterRed>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(RedHardClay,
 [ClayBlock, RedDye]);
 
 // --- Black Stained Clay Block
-recipes.addShaped(BlackHardClay * 7, [
+recipes.addShaped(BlackHardClay * 8, [
 [ClayBlock, ClayBlock, ClayBlock],
-[ClayBlock, BlackDye, ClayBlock],
-[ClayBlock, Paintbrush, ClayBlock]]);
+[ClayBlock, <IC2:itemToolPainterBlack>, ClayBlock],
+[ClayBlock, ClayBlock, ClayBlock]]);
 // - Alternate Recipe
 recipes.addShapeless(BlackHardClay,
 [ClayBlock, BlackDye]);
