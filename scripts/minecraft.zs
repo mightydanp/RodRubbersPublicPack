@@ -260,19 +260,19 @@ recipes.removeShaped(<minecraft:gunpowder>, [
 [NaturaBarley4, NaturaBarley4, null]]);
 
 // --- Enchantment Table
-// recipes.remove(EnchantingTable);
+recipes.remove(EnchantingTable);
 
 // --- Chest
-// recipes.remove(Chest);
+recipes.remove(Chest);
 
 // --- Fence
-// recipes.remove(Fence);
+recipes.remove(Fence);
 
 // --- Fence Gate
-// recipes.remove(FenceGate);
+recipes.remove(FenceGate);
 
 // --- Piston
-// recipes.remove(Piston);
+recipes.remove(Piston);
 
 // {
 
@@ -740,10 +740,10 @@ recipes.remove(Map);
 // --- Adding Back Recipes ---
 
 // --- Enchantment Table
-// recipes.addShaped(EnchantingTable, [
-// [Nitor, Diamond, Alumentum],
-// [DiamondRod, DenseObsidianPlate, DiamondRod],
-// [ObsidianPlate, Bookshelf, ObsidianPlate]]);
+recipes.addShaped(EnchantingTable, [
+ [Nitor, Diamond, Alumentum],
+ [DiamondRod, DenseObsidianPlate, DiamondRod],
+ [ObsidianPlate, Bookshelf, ObsidianPlate]]);
 
 // --- Crafting Table
 // recipes.addShaped(CraftingTable, [
