@@ -28,6 +28,13 @@ val DaylightSensor = <CarpentersBlocks:blockCarpentersDaylightSensor>;
 val MCDaylightSensor = <minecraft:daylight_detector>;
 val Stick = <minecraft:stick>;
 val Redstone = <ore:dustRedstone>;
+val door = <ore:door>;
+door.add(<minecraft:wooden_door>);
+door.add(<malisisdoors:item.door_dark_oak>);
+door.add(<malisisdoors:item.door_acacia>);
+door.add(<malisisdoors:item.door_birch>);
+door.add(<malisisdoors:item.door_jungle>);
+door.add(<malisisdoors:item.door_spruce>);
 
 
 
@@ -211,7 +218,7 @@ recipes.addShapeless(<CarpentersBlocks:itemCarpentersTile>, [<CarpentersBlocks:b
 
 // ---  Carpenters Door
 recipes.addShaped(<CarpentersBlocks:itemCarpentersDoor>, [
-[CarpentersBlock, <minecraft:wooden_door>, CarpentersBlock],
+[CarpentersBlock, door, CarpentersBlock],
 [WoodScrew, Screwdriver, WoodScrew]]);
 
 

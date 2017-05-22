@@ -1007,4 +1007,4 @@ Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.me
 Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.metaitem.01:23523>  * 4, 200, 128);
 
 //
-mods.appeng.Grinder.addRecipe(<minecraft:cobblestone>, <rodrcore:rock> * 1, 4, <gregtech:gt.metaitem.01:3299>* 1, 0.25);
+mods.appeng.Grinder.addRecipe(<minecraft:cobblestone>, <rodrcore:rock> * 1, 4, <gregtech:gt.metaitem.01:3299>* 1, 0.25, <gregtech:gt.metaitem.01:3299>* 1, 0.05);
