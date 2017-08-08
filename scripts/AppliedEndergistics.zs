@@ -1008,3 +1008,5 @@ Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.me
 
 //
 mods.appeng.Grinder.addRecipe(<minecraft:cobblestone>, <rodrcore:rock> * 1, 4, <gregtech:gt.metaitem.01:3299>* 1, 0.25, <gregtech:gt.metaitem.01:3299>* 1, 0.05);
+recipes.addShaped(<gregtech:gt.metaitem.01:8516>, [[null, <minecraft:stone_slab>.giveBack(<minecraft:stone_slab>), null], [<gregtech:gt.metaitem.01:2516>, <ore:dustCertusQuartz>, <ore:dustCertusQuartz>], [null, <minecraft:stone_slab>.giveBack(<minecraft:stone_slab>), null]]);
+recipes.addShaped(<gregtech:gt.metaitem.01:2516>, [[<ore:oreCertusQuartz>], [<ore:craftingToolMortar>]]);

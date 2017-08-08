@@ -2,8 +2,10 @@ V0.9.0.0
 added:
 
 changed:
-    -made life blood Crystals in every loot chest.
-	-nether is no longer dark
-	-fixed openComputers
+    -Dense obsidian plates.
+	-can resmelt seared bricks
+	-take out ore dic of diffrent cobble stones and stones.
+	-nodes have not physics
+	-smeltery nuggets.
 	
 deleted:

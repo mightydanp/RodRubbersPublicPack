@@ -11,3 +11,4 @@ furnace.remove(<ore:nuggetPulsatingIron>);
 furnace.remove(<ore:itemVibrantNugget>);
 furnace.remove(<ore:nuggetGold>);
 
+recipes.addShaped(<minecraft:clay>, [[<minecraft:clay_ball>, <minecraft:clay_ball>], [<minecraft:clay_ball>, <minecraft:clay_ball>]]);

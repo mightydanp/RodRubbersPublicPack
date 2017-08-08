@@ -64,6 +64,7 @@ recipes.remove(<chisel:upgrade:2>);
 // --- Mossy stone
 mods.chisel.Groups.removeVariation(<minecraft:stonebrick:1>);
 mods.chisel.Groups.removeVariation(<minecraft:mossy_cobblestone:0>);
+mods.chisel.Groups.removeVariation(<UndergroundBiomes:metamorphicCobblestone:32767>);
 
 
 
