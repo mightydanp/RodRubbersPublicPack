@@ -1,5 +1,6 @@
 V0.9.0.0
 added:
+    -wooden hopper.
 
 changed:
     -Dense obsidian plates.
@@ -7,5 +8,11 @@ changed:
 	-take out ore dic of diffrent cobble stones and stones.
 	-nodes have not physics
 	-smeltery nuggets.
+	-less grindy start.
+	-salvaged axe for early start.
+	-stone piles have a change to give you nuggets for latter use.
+	-knife no longers is able to get plankes from logs on right click.
+	-knife is damagable now.
+	-fixed all scoops against hives.
 	
 deleted:
