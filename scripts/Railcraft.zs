@@ -500,3 +500,15 @@ Compressor.addRecipe(blockCoalCoke, fuelCoke * 9);
 for blockMarble in <ore:blockMarble>.items {
   RockCrusher.addRecipe(blockMarble, false, false, [dustMarble * 4], [1.0]);
 }
+
+// Rock Crusher Fix
+mods.railcraft.RockCrusher.removeRecipe(<minecraft:iron_ore>);
+mods.railcraft.RockCrusher.removeRecipe(<minecraft:gold_ore>);
+mods.railcraft.RockCrusher.removeRecipe(<minecraft:coal_ore>);
+mods.railcraft.RockCrusher.removeRecipe(<minecraft:lapis_ore>);
+mods.railcraft.RockCrusher.removeRecipe(<minecraft:redstone_ore>);
+mods.railcraft.RockCrusher.removeRecipe(<minecraft:emerald_ore>);
+mods.railcraft.RockCrusher.removeRecipe(<IC2:blockOreCopper>);
+mods.railcraft.RockCrusher.removeRecipe(<IC2:blockOreTin>);
+mods.railcraft.RockCrusher.removeRecipe(<IC2:blockOreUran>);
+mods.railcraft.RockCrusher.removeRecipe(<IC2:blockOreLead>);

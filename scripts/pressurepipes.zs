@@ -1,3 +1,9 @@
+// Imports
+import mods.gregtech.Assembler;
+
+// Removed because of IHL Handpump! + infinite water
+recipes.remove(<pressure:HandPump>);
+recipes.remove(<pressure:Water>);
 
 var pipe = <pressure:Pipe>;
 var pump = <pressure:Pump>;
@@ -19,12 +25,12 @@ var indicator = <pressure:TankIndicator>;
 var fluidinterface = <pressure:FluidInterface>;
 var pressureinterface = <pressure:Interface>;
 var infinatewater = <pressure:Water>;
-var lvmachinecasing = <gregtech:gt.blockcasings:1>;
+var lvmachinecasing = <gregtech:gt.blockmachines:13>;
 
 var iron = <minecraft:iron_ingot>;
 var piston = <minecraft:piston>;
 var tincanister = <GalacticraftCore:item.canister>;
-var steelplate = <ore:plateSteel>;
+var steelplate = <ore:plateStainlessSteel>;
 var ironplate = <ore:plateIron>;
 var bolt = <ore:boltSteel>;
 var boltIron = <ore:boltIron>;
@@ -38,27 +44,21 @@ var waterbucket = <ore:listAllwater>;
 
 #Canister
 recipes.remove(canister);
-recipes.addShaped(canister, [[boltIron,craftingToolWrench,boltIron],
-                                                        [ironplate,ring,ironplate],
-                                                        [boltIron,tincanister,boltIron]]);
+recipes.addShaped(<pressure:Canister>, [[<ore:paneGlass>,<ore:plateSteel>,<ore:paneGlass>], [<ore:plateSteel>,<ore:paneGlass>,<ore:plateSteel>], [<ore:plateSteel>,<ore:plateSteel>,<ore:plateSteel>]]);
+
 
 #Tank Wall
 recipes.remove(tankwall);
-recipes.addShaped(tankwall * 16, [[steelplate,bolt,steelplate],
-                                                        [steelplate,craftingToolWrench,steelplate],
-                                                        [steelplate,bolt,steelplate]]);
+Assembler.addRecipe(<pressure:TankWall> * 8, <gregtech:gt.metaitem.01:22316>, <gregtech:gt.metaitem.01:28316> * 4, 200, 256);
+Assembler.addRecipe(<pressure:TankWall> * 1, <gregtech:gt.metaitem.01:17316>, <gregtech:gt.metaitem.01:28316>, 200, 256);
 
 #Fluid Interface
 recipes.remove(fluidinterface);
-recipes.addShaped(fluidinterface * 8, [[boltIron,craftingToolWrench,boltIron],
-                                                        [iron,<minecraft:bucket>,iron],
-                                                        [boltIron,iron,boltIron]]);
+Assembler.addRecipe(<pressure:TankInterface>, <pressure:TankWall> * 4, <pressure:Interface>, 200, 256);
 
 #Tank Block
 recipes.remove(tankblock);
-recipes.addShaped(tankblock, [[bolt,tankwall,bolt],
-                                                        [tankwall,craftingToolWrench,tankwall],
-                                                        [bolt,tankwall,bolt]]);
+Assembler.addRecipe(<pressure:TankBlock>, <pressure:TankWall> * 32, <gregtech:gt.metaitem.01:32406>, 200, 256);
 
 #Powered Output
 recipes.remove(poweredoutput);
@@ -92,21 +92,15 @@ recipes.addShaped(pressureoutlet, [[tankwall,bolt,tankwall],
 
 #Tank interface
 recipes.remove(interface);
-recipes.addShaped(interface, [[tankwall,hopper,tankwall],
-                                                        [fluidinterface,craftingToolWrench,pressureinterface],
-                                                        [tankwall,hopper,tankwall]]);
+Assembler.addRecipe(<pressure:Interface>, <pressure:TankWall>, <minecraft:ender_eye>, 60, 256);
 
 #Pressure Pipe
 recipes.remove(pipe);
-recipes.addShaped(pipe * 12, [[steelplate,steelplate,steelplate],
-                                                        [hopper,craftingToolWrench,hopper],
-                                                        [steelplate,steelplate,steelplate]]);
+Assembler.addRecipe(<pressure:Pipe>, <pressure:TankWall> * 4, <gregtech:gt.blockmachines:5162> * 1, 60, 256);
 
 #Pump
 recipes.remove(pump);
-recipes.addShaped(pump, [[tankwall,hopper,tankwall],
-                                                        [bolt,piston,bolt],
-                                                        [tankwall,craftingToolWrench,tankwall]]);
+Assembler.addRecipe(<pressure:Pump>, <pressure:TankWall> * 16, <IC2:blockMachine:8>, 200, 256);
 
 #Output
 recipes.remove(output);
@@ -122,18 +116,20 @@ recipes.addShaped(input, [[tankwall,craftingToolWrench,tankwall],
 
 #Drain
 recipes.remove(drain);
-recipes.addShaped(drain, [[tankwall,pressureinterface,tankwall],
-                                                        [tankwall,craftingToolWrench,tankwall],
-                                                        [bars,bars,bars]]);
+Assembler.addRecipe(<pressure:Drain>, <pressure:Pump>, <gregtech:gt.metaitem.01:32745>, 200, 256);
 
 #Filter
 recipes.remove(filter);
-recipes.addShaped(filter, [[tankwall,bars,tankwall],
-                                                        [bars,craftingToolWrench,bars],
-                                                        [tankwall,bars,tankwall]]);
+Assembler.addRecipe(<pressure:TankFilter>, <pressure:TankWall> * 4, <gregtech:gt.metaitem.01:32729>, 200, 256);
 														
 #Water
 recipes.remove(infinatewater);
 recipes.addShaped(infinatewater, [[steelplate,steelplate,steelplate],
                                                         [waterbucket,lvmachinecasing,waterbucket],
                                                         [steelplate,steelplate,steelplate]]);
+														
+recipes.remove(<pressure:TankIndicator>);
+Assembler.addRecipe(<pressure:TankIndicator>, <pressure:TankBlock>, <gregtech:gt.metaitem.01:32732>, 200, 256);
+														
+Assembler.addRecipe(<pressure:TankController>, <pressure:TankWall> * 4, <gregtech:gt.blockcasings2:15>, 600, 256);
+														
