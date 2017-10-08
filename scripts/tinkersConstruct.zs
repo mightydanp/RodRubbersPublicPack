@@ -113,6 +113,7 @@ mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:3032>, <liquid:iron.m
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:2032>, <liquid:iron.molten> * 288, 550, <gregtech:gt.blockores:2032>);
 mods.tconstruct.Smeltery.addMelting(<gregtech:gt.blockores:1032>, <liquid:iron.molten> * 288, 550, <gregtech:gt.blockores:1032>);
 // --- Casting ---
+mods.tconstruct.Casting.removeTableRecipe(<Thaumcraft:ItemNugget:0>);
 mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:9032>, <liquid:iron.molten> * 16, <TConstruct:metalPattern:27>, false, 20);
 
 // --- Copper Smelting ---
@@ -223,6 +224,21 @@ mods.tconstruct.Smeltery.removeMelting(<gregtech:gt.blockmetal2:5>);
 mods.tconstruct.Casting.removeBasinRecipe(<minecraft:obsidian>);
 mods.tconstruct.Casting.addBasinRecipe(<minecraft:obsidian>, <liquid:obsidian.molten> * 1296, null, false, 60);
 
+// --- Stainless Steel ---
+// ---Casting ---
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:11306>, <liquid:fluid_stainlesssteel> * 144, 550, <gregtech:gt.blockmetal6:12>);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11306>, <liquid:fluid_stainlesssteel> * 144, <TConstruct:metalPattern>, false, 60);
+
+// --- Titanium ---
+// ---Casting ---
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:11028>, <liquid:fluid_titanium> * 144, 550, <gregtech:gt.blockmetal7:9>);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11028>, <liquid:fluid_titanium> * 144, <TConstruct:metalPattern>, false, 60);
+
+// --- Titanium ---
+// ---Casting ---
+mods.tconstruct.Smeltery.addMelting(<gregtech:gt.metaitem.01:11316>, <liquid:fluid_tungstensteel> * 144, 550, <gregtech:gt.blockmetal7:12>);
+mods.tconstruct.Casting.addTableRecipe(<gregtech:gt.metaitem.01:11316>, <liquid:fluid_tungstensteel> * 144, <TConstruct:metalPattern>, false, 60);
+
 // Green Heart canister
 recipes.addShaped(<TConstruct:heartCanister:6>, [
     [NetherStar, <TConstruct:heartCanister:5>, NetherStar], 
@@ -235,6 +251,9 @@ recipes.addShaped(<TConstruct:CraftedSoil:1> * 4, [
 	[<ore:dustStone>, <minecraft:clay>, <ore:dustStone>], 
 	[Sand, <ore:listAllwater>, Sand]
 ]);
+
+
+
 
 // Grout
 recipes.remove(Grout);

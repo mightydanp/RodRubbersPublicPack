@@ -53,6 +53,7 @@ val rock = <rodrcore:rock>;
 val smallCrucible = <rodrcore:small_crucible>;
 val flintandStone = <rodrcore:flint_and_stone>;
 val barkStrip = <rodrcore:bark_strip>;
+val salvagedAxe = <rodrcore:salvaged_axe>;
  
  
 // Remove/Hide unused
@@ -173,4 +174,10 @@ recipes.addShaped(logDarkOak ,[
   [barkStrip, resin, barkStrip],
   [plankDarkOak, plankDarkOak, plankDarkOak],
   [barkStrip, resin, barkStrip]
+]);
+
+//axe
+recipes.addShaped(salvagedAxe ,[
+  [null, flint],
+  [stick, null]
 ]);

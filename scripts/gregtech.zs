@@ -638,3 +638,6 @@ recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:p
 
 recipes.addShapeless(<gregtech:gt.metaitem.02:32559>, [<ore:listAllwater>, <gregtech:gt.metaitem.01:2881>]);
 recipes.addShaped(<gregtech:gt.metaitem.01:2881>, [[<Natura:barleyFood>], [<ore:craftingToolMortar>]]);
+
+PlateBender.addRecipe(<IC2:itemDensePlates:7> * 1, <gregtech:gt.metaitem.01:17804> * 9, 40, 24);
+
