@@ -10,7 +10,7 @@ val ingotGraphite = <ore:ingotGraphite>;
 val ingotYellorium = <ore:ingotYellorium>;
 val blockYellowrium = <ore:blockYellorium>;
 val ingotCyanite = <ore:ingotCyanite>;
-val glassTurbine = <ore:glassTurbine>;
+val glassReactor = <ore:glassReactor>;
 val reactorCoolantPort = <ore:reactorCoolantPort>;
 
 furnace.remove(ingotGraphite); // Improper duplicate of Gregtech smelting ore
@@ -36,7 +36,7 @@ print("Fuel Rod") ;
 recipes.remove(<BigReactors:YelloriumFuelRod>);
 recipes.addShaped(<BigReactors:YelloriumFuelRod>, [
   [plateSteel, ingotYellorium, plateSteel],
-  [glassTurbine, blockYellowrium, glassTurbine],
+  [glassReactor, blockYellowrium, glassReactor],
   [plateSteel, ingotYellorium, plateSteel]
 ]);
 
