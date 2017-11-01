@@ -7,6 +7,7 @@ import mods.gregtech.Centrifuge;
 import mods.gregtech.CuttingSaw;
 import mods.gregtech.PlateBender;
 import mods.gregtech.Pulverizer;
+import mods.gregtech.Extruder;
 import mods.nei.NEI;
 
 val CastingBasin = <TConstruct:SearedBlock:2>;
@@ -623,3 +624,6 @@ mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern:16>, <liquid:gol
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:metalPattern:22>, <liquid:gold.molten> * 288, <TConstruct:fullGuard:6>, true, 60);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:Cast:1>, <liquid:gold.molten> * 288, <TConstruct:CrossbowLimbPart:6>, true, 60);
 mods.tconstruct.Casting.addTableRecipe(<TConstruct:Cast:2>, <liquid:gold.molten> * 288, <TConstruct:CrossbowBodyPart:6>, true, 60); 
+
+// --- GlueBlock fix
+mods.tconstruct.Smeltery.removeMelting(<TConstruct:GlueBlock>);

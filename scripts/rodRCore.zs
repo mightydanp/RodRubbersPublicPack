@@ -133,6 +133,9 @@ Campfire.addSmallCrucibleRecipe(glass, sand);
 //brick
 Campfire.addSmallCrucibleRecipe(brick, clay);
 
+//bottle of water
+Campfire.addSmallCrucibleRecipe(<minecraft:potion>, <enviromine:saltWaterBottle>);
+
 
 //logOak
 recipes.addShaped(logOak ,[
